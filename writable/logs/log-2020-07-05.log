@@ -1,0 +1,198 @@
+CRITICAL - 2020-07-05 22:14:26 --> Trying to get property 'results' of non-object
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Helpers\product_helper.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(20): totalTransaksi()
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-05 22:15:11 --> Trying to get property 'results' of non-object
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Helpers\product_helper.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(20): totalTransaksi()
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-05 22:21:14 --> Trying to get property 'results' of non-object
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Helpers\product_helper.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(20): totalTransaksi()
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-05 22:21:48 --> Trying to get property 'results' of non-object
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Helpers\product_helper.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(20): totalTransaksi()
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-05 22:23:50 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Helpers\product_helper.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(20): totalTransaksi()
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-05 22:24:41 --> Trying to get property 'results' of non-object
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Helpers\product_helper.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(20): totalTransaksi()
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-05 22:31:50 --> Undefined property: stdClass::$products
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Helpers\product_helper.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(14): totalProduct()
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-05 22:48:47 --> Trying to get property 'sub_total' of non-object
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Helpers\product_helper.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(21): jumlahTransaksi()
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-05 23:40:48 --> Invalid file: transaction/index.php
+#0 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaction/ind...')
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('transaction/ind...', Array, true)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(15): view('transaction/ind...', Array)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->index()
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-07-05 23:41:07 --> Invalid file: Transaction/index.php
+#0 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Transaction/ind...')
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('Transaction/ind...', Array, true)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(15): view('Transaction/ind...', Array)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->index()
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-07-05 23:49:08 --> Invalid file: transaction/index.php
+#0 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaction/ind...')
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('transaction/ind...', Array, true)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\transaction.php(15): view('transaction/ind...', Array)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->index()
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-07-05 23:49:20 --> Invalid file: transaction/index.php
+#0 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaction/ind...')
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('transaction/ind...', Array, true)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(15): view('transaction/ind...', Array)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->index()
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-07-05 23:49:27 --> Invalid file: Transaction/index.php
+#0 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Transaction/ind...')
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('Transaction/ind...', Array, true)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\transaction.php(15): view('Transaction/ind...', Array)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->index()
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-07-05 23:49:39 --> Invalid file: Transaction/index.php
+#0 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Transaction/ind...')
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('Transaction/ind...', Array, true)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(15): view('Transaction/ind...', Array)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->index()
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-07-05 23:50:53 --> Trying to get property 'ID' of non-object
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\transaction\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('transaction/ind...', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(15): view('transaction/ind...', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->index()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-05 23:52:15 --> Trying to get property 'ID' of non-object
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\transaction\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('transaction/ind...', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(15): view('transaction/ind...', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->index()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-05 23:52:27 --> Trying to get property 'ID' of non-object
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\transaction\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('transaction/ind...', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(15): view('transaction/ind...', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->index()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-05 23:52:51 --> Trying to get property 'buyer' of non-object
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\transaction\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('transaction/ind...', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(15): view('transaction/ind...', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->index()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-05 23:53:35 --> Undefined variable: data
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\transaction\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('transaction/ind...', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(15): view('transaction/ind...', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->index()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-05 23:54:16 --> Trying to get property 'ID' of non-object
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\transaction\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('transaction/ind...', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(15): view('transaction/ind...', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->index()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-05 23:54:48 --> Trying to get property 'ID' of non-object
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\transaction\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('transaction/ind...', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(15): view('transaction/ind...', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->index()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-05 23:54:56 --> Trying to get property 'ID' of non-object
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\transaction\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('transaction/ind...', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(15): view('transaction/ind...', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->index()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

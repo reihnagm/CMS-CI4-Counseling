@@ -1,0 +1,232 @@
+CRITICAL - 2021-01-22 00:29:43 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(341): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 341, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 00:36:56 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(343): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 343, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 00:38:25 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(343): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 343, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 00:41:01 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(343): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 343, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 00:51:27 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(343): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 343, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 00:52:09 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(343): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 343, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 00:59:26 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(343): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 343, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 00:59:52 --> MySQL server has gone away
+#0 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(269): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getEventDelegate()
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#5 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-22 01:01:39 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(343): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 343, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 01:03:25 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(346): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 346, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 01:04:20 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(346): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 346, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 01:05:09 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(346): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 346, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 01:06:34 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(347): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 347, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 01:10:50 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(347): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 347, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 01:12:38 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(343): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 343, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 02:23:56 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(334): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 334, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 03:25:42 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(334): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 334, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 03:26:57 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(334): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 334, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 04:07:51 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(334): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 334, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 04:09:06 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(334): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 334, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 04:09:50 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(334): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 334, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 04:11:03 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(334): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 334, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 04:12:39 --> Undefined offset: 0
+#0 C:\xampp_new\htdocs\cms-siswa\app\Views\student\detail.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp_new\\ht...', 98, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cms-siswa\system\Common.php(1087): CodeIgniter\View\View->render('student/detail', Array, true)
+#3 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Student\StudentController.php(219): view('student/detail', Array)
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Student\StudentController->search()
+#5 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Student\StudentController))
+#6 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-22 04:14:50 --> Undefined offset: 0
+#0 C:\xampp_new\htdocs\cms-siswa\app\Views\student\detail.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp_new\\ht...', 102, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cms-siswa\system\Common.php(1087): CodeIgniter\View\View->render('student/detail', Array, true)
+#3 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Student\StudentController.php(219): view('student/detail', Array)
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Student\StudentController->search()
+#5 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Student\StudentController))
+#6 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-22 04:19:21 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(334): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 334, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 04:20:25 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(334): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 334, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 04:20:58 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(334): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 334, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 04:21:36 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(334): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 334, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 04:43:35 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(334): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 334, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 05:04:00 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(334): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 334, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 05:22:27 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(348): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 348, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-22 05:34:20 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(348): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 348, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}

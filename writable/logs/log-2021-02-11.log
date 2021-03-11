@@ -1,0 +1,64 @@
+CRITICAL - 2021-02-11 00:38:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7
+#0 /home/connexis/omega.connexist.id/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT a.id, a....')
+#1 /home/connexis/omega.connexist.id/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.id, a....')
+#2 /home/connexis/omega.connexist.id/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.id, a....')
+#3 /home/connexis/omega.connexist.id/app/Controllers/Admin/Student/StudentController.php(281): CodeIgniter\Database\BaseConnection->query('SELECT a.id, a....')
+#4 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Student\StudentController->editStudentAdmission()
+#5 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Student\StudentController))
+#6 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-11 00:42:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7
+#0 /home/connexis/omega.connexist.id/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT a.id, a....')
+#1 /home/connexis/omega.connexist.id/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.id, a....')
+#2 /home/connexis/omega.connexist.id/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.id, a....')
+#3 /home/connexis/omega.connexist.id/app/Controllers/Admin/Student/StudentController.php(282): CodeIgniter\Database\BaseConnection->query('SELECT a.id, a....')
+#4 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Student\StudentController->editStudentAdmission()
+#5 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Student\StudentController))
+#6 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-11 00:45:50 --> Undefined offset: 0
+#0 /home/connexis/omega.connexist.id/app/Views/followup/detail.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/connexis/...', 161, Array)
+#1 /home/connexis/omega.connexist.id/system/View/View.php(246): include('/home/connexis/...')
+#2 /home/connexis/omega.connexist.id/system/Common.php(1087): CodeIgniter\View\View->render('followup/detail', Array, true)
+#3 /home/connexis/omega.connexist.id/app/Controllers/Admin/FollowUp/FollowUpController.php(144): view('followup/detail', Array)
+#4 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\FollowUp\FollowUpController->detail('0')
+#5 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\FollowUp\FollowUpController))
+#6 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-11 00:53:34 --> Too few arguments to function App\Controllers\Admin\Report\ReportController::detailReport(), 0 passed in /home/connexis/omega.connexist.id/system/CodeIgniter.php on line 914 and exactly 1 expected
+#0 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->detailReport()
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-11 00:57:18 --> Undefined offset: 0
+#0 /home/connexis/omega.connexist.id/app/Views/report/detail.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/connexis/...', 159, Array)
+#1 /home/connexis/omega.connexist.id/system/View/View.php(246): include('/home/connexis/...')
+#2 /home/connexis/omega.connexist.id/system/Common.php(1087): CodeIgniter\View\View->render('report/detail', Array, true)
+#3 /home/connexis/omega.connexist.id/app/Controllers/Admin/Report/ReportController.php(51): view('report/detail', Array)
+#4 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->detailReport('0')
+#5 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#6 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-11 01:01:32 --> Undefined variable: disabled
+#0 /home/connexis/omega.connexist.id/app/Views/report/detail.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 159, Array)
+#1 /home/connexis/omega.connexist.id/system/View/View.php(246): include('/home/connexis/...')
+#2 /home/connexis/omega.connexist.id/system/Common.php(1087): CodeIgniter\View\View->render('report/detail', Array, true)
+#3 /home/connexis/omega.connexist.id/app/Controllers/Admin/Report/ReportController.php(55): view('report/detail', Array)
+#4 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->detailReport('253')
+#5 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#6 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-11 01:21:09 --> syntax error, unexpected '--' (T_DEC)
+#0 /home/connexis/omega.connexist.id/system/Common.php(1087): CodeIgniter\View\View->render('report/detail', Array, true)
+#1 /home/connexis/omega.connexist.id/app/Controllers/Admin/Report/ReportController.php(50): view('report/detail', Array)
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->detailReport('252')
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#4 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#6 {main}

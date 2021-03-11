@@ -1,0 +1,132 @@
+CRITICAL - 2020-06-23 03:39:50 --> Call to undefined method stdClass::getStatusCode()
+#0 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->index()
+#1 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#2 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 04:16:28 --> Call to undefined method stdClass::getStatusCode()
+#0 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->index()
+#1 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#2 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-23 04:17:02 --> Undefined variable: data
+#0 C:\xampp\htdocs\cms_ci4\app\Views\user\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\cms_ci4\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4\system\Common.php(1087): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\cms_ci4\app\Controllers\Admin\User\User.php(15): view('user/index', Array)
+#4 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->index()
+#5 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-23 04:18:48 --> Trying to get property 'uid' of non-object
+#0 C:\xampp\htdocs\cms_ci4\app\Views\user\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\cms_ci4\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4\system\Common.php(1087): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\cms_ci4\app\Controllers\Admin\User\User.php(15): view('user/index', Array)
+#4 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->index()
+#5 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-23 04:24:10 --> Undefined variable: data
+#0 C:\xampp\htdocs\cms_ci4\app\Views\user\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\cms_ci4\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4\system\Common.php(1087): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\cms_ci4\app\Controllers\Admin\User\User.php(15): view('user/index', Array)
+#4 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->index()
+#5 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-23 04:24:53 --> Undefined variable: data
+#0 C:\xampp\htdocs\cms_ci4\app\Views\user\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\cms_ci4\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4\system\Common.php(1087): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\cms_ci4\app\Controllers\Admin\User\User.php(15): view('user/index', Array)
+#4 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->index()
+#5 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-23 04:25:13 --> Undefined variable: category
+#0 C:\xampp\htdocs\cms_ci4\app\Views\user\index.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\cms_ci4\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4\system\Common.php(1087): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\cms_ci4\app\Controllers\Admin\User\User.php(15): view('user/index', Array)
+#4 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->index()
+#5 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-23 04:47:56 --> Undefined property: stdClass::$data
+#0 C:\xampp\htdocs\cms_ci4\app\Views\user\index.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 79, Array)
+#1 C:\xampp\htdocs\cms_ci4\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4\system\Common.php(1087): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\cms_ci4\app\Controllers\Admin\User\User.php(15): view('user/index', Array)
+#4 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->index()
+#5 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-23 04:48:17 --> Undefined property: stdClass::$products
+#0 C:\xampp\htdocs\cms_ci4\app\Helpers\product_helper.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\cms_ci4\app\Controllers\Admin\Dashboard\Dashboard.php(12): totalProduct()
+#2 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-23 05:47:06 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\cms_ci4\app\Views\user\index.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 117, Array)
+#1 C:\xampp\htdocs\cms_ci4\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4\system\Common.php(1087): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\cms_ci4\app\Controllers\Admin\User\User.php(16): view('user/index', Array)
+#4 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->index()
+#5 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+<<<<<<< HEAD
+CRITICAL - 2020-06-23 22:07:39 --> Undefined property: stdClass::$data
+#0 C:\xampp\htdocs\cms_ci4\app\Views\user\index.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\cms_ci4\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4\system\Common.php(1087): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\cms_ci4\app\Controllers\Admin\User\User.php(16): view('user/index', Array)
+#4 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->index()
+#5 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+=======
+CRITICAL - 2020-06-23 22:41:08 --> Undefined property: stdClass::$data
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\user\index.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 101, Array)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(16): view('user/index', Array)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->index()
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-23 22:41:22 --> Undefined property: stdClass::$data
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\user\index.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 101, Array)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(16): view('user/index', Array)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->index()
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-23 22:46:35 --> Undefined property: stdClass::$data
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\user\index.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 101, Array)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(16): view('user/index', Array)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->index()
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+>>>>>>> 2532c1a82ae7d00f11566d479787c350523fbde2
+#8 {main}

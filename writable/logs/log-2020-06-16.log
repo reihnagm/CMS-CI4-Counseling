@@ -1,0 +1,21 @@
+CRITICAL - 2020-06-16 21:05:29 --> Trying to get property 'status' of non-object
+#0 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Auth\Login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp_new\\ht...', 28, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Auth\Login->store()
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth\Login))
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-16 21:05:40 --> Trying to get property 'status' of non-object
+#0 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Auth\Login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp_new\\ht...', 28, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Auth\Login->store()
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth\Login))
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-16 21:46:25 --> Trying to get property 'status' of non-object
+#0 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Auth\Login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp_new\\ht...', 28, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Auth\Login->store()
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth\Login))
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

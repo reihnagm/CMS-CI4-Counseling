@@ -1,0 +1,192 @@
+CRITICAL - 2020-09-02 22:30:29 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(39): count(NULL)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-02 22:30:42 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(39): count(NULL)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-02 22:54:16 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(39): count(NULL)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-02 22:58:05 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(39): count(NULL)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-02 22:59:31 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(39): count(NULL)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-02 22:59:36 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(39): count(NULL)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-02 23:01:34 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(39): count(NULL)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-02 23:04:55 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(39): count(NULL)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-02 23:06:32 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(39): count(NULL)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-02 23:07:50 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(39): count(NULL)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-02 23:11:35 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(39): count(NULL)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-02 23:28:19 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(39): count(NULL)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-02 23:28:42 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(39): count(NULL)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-02 23:29:08 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(39): count(NULL)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-02 23:29:31 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(39): count(NULL)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-02 23:33:02 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(39): count(NULL)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-02 23:37:05 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(39): count(NULL)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-02 23:37:44 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(39): count(NULL)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-02 23:39:34 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(39): count(NULL)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-02 23:40:30 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(39): count(NULL)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-02 23:40:51 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(39): count(NULL)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-02 23:41:23 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(39): count(NULL)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-02 23:41:52 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(39): count(NULL)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-02 23:42:00 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(39): count(NULL)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

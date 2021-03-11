@@ -1,0 +1,26 @@
+CRITICAL - 2020-06-24 00:45:08 --> Call to undefined method stdClass::getStatusCode()
+#0 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->index()
+#1 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#2 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kp\cms-kepasar\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-24 01:25:19 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\kp\cms-kepasar\app\Views\Market\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\kp\cms-kepasar\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp\cms-kepasar\system\Common.php(1087): CodeIgniter\View\View->render('Market/index', Array, true)
+#3 C:\xampp\htdocs\kp\cms-kepasar\app\Controllers\Admin\Market\Market.php(15): view('Market/index', Array)
+#4 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(914): App\Controllers\Admin\Market\Market->index()
+#5 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Market\Market))
+#6 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kp\cms-kepasar\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-24 01:28:13 --> Undefined property: stdClass::$uid
+#0 C:\xampp\htdocs\kp\cms-kepasar\app\Views\Market\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\kp\cms-kepasar\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp\cms-kepasar\system\Common.php(1087): CodeIgniter\View\View->render('Market/index', Array, true)
+#3 C:\xampp\htdocs\kp\cms-kepasar\app\Controllers\Admin\Market\Market.php(15): view('Market/index', Array)
+#4 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(914): App\Controllers\Admin\Market\Market->index()
+#5 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Market\Market))
+#6 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kp\cms-kepasar\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

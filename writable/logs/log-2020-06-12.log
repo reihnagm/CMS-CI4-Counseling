@@ -1,0 +1,496 @@
+CRITICAL - 2020-06-12 02:32:12 --> Invalid file: {0}
+#0 C:\xampp_new\htdocs\framework-4.0.3\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp_new\htdocs\framework-4.0.3\system\Common.php(1087): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp_new\htdocs\framework-4.0.3\app\Controllers\Login.php(9): view('login')
+#3 C:\xampp_new\htdocs\framework-4.0.3\system\CodeIgniter.php(914): App\Controllers\Login->index()
+#4 C:\xampp_new\htdocs\framework-4.0.3\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp_new\htdocs\framework-4.0.3\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\framework-4.0.3\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-12 04:16:44 --> Class 'App\Controllers\Curl\Curl' not found
+#0 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->index()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-12 04:17:15 --> Class 'App\Controllers\Curl\Curl' not found
+#0 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->index()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-12 04:17:23 --> Class 'App\Controllers\Curl\Curl' not found
+#0 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->index()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-12 04:17:32 --> Class 'App\Controllers\Curl\Curl' not found
+#0 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->index()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-12 04:18:38 --> Class 'App\Controllers\Curl\Curl' not found
+#0 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->index()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-12 04:21:04 --> Class 'Curl' not found
+#0 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->index()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-12 04:22:25 --> Class 'Curl' not found
+#0 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->index()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-12 04:46:40 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#1 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-12 04:58:08 --> syntax error, unexpected ')', expecting ']'
+#0 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#1 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-12 05:08:51 --> {0} : {1}
+#0 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://api2.ke...')
+#3 C:\xampp_new\htdocs\ci-4\app\Controllers\Login.php(13): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://api2.ke...', Array)
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->login()
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-12 05:09:18 --> {0} : {1}
+#0 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://api2.ke...')
+#3 C:\xampp_new\htdocs\ci-4\app\Controllers\Login.php(13): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://api2.ke...', Array)
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->index()
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-12 05:10:58 --> strlen() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strlen() expect...', 'C:\\xampp_new\\ht...', 534, Array)
+#1 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(534): strlen(Array)
+#2 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(440): CodeIgniter\HTTP\CURLRequest->applyMethod('POST', Array)
+#3 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://api2.ke...')
+#4 C:\xampp_new\htdocs\ci-4\app\Controllers\Login.php(18): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://api2.ke...', Array)
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->login()
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-12 05:12:04 --> strlen() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strlen() expect...', 'C:\\xampp_new\\ht...', 534, Array)
+#1 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(534): strlen(Array)
+#2 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(440): CodeIgniter\HTTP\CURLRequest->applyMethod('POST', Array)
+#3 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://api2.ke...')
+#4 C:\xampp_new\htdocs\ci-4\app\Controllers\Login.php(18): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://api2.ke...', Array)
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->login()
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-12 05:12:12 --> strlen() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strlen() expect...', 'C:\\xampp_new\\ht...', 534, Array)
+#1 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(534): strlen(Array)
+#2 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(440): CodeIgniter\HTTP\CURLRequest->applyMethod('POST', Array)
+#3 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://api2.ke...')
+#4 C:\xampp_new\htdocs\ci-4\app\Controllers\Login.php(18): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://api2.ke...', Array)
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->login()
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-12 05:13:55 --> strlen() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strlen() expect...', 'C:\\xampp_new\\ht...', 534, Array)
+#1 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(534): strlen(Array)
+#2 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(440): CodeIgniter\HTTP\CURLRequest->applyMethod('POST', Array)
+#3 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://api2.ke...')
+#4 C:\xampp_new\htdocs\ci-4\app\Controllers\Login.php(18): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://api2.ke...', Array)
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->login()
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-12 05:14:08 --> strlen() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strlen() expect...', 'C:\\xampp_new\\ht...', 534, Array)
+#1 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(534): strlen(Array)
+#2 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(440): CodeIgniter\HTTP\CURLRequest->applyMethod('POST', Array)
+#3 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('post', 'https://api2.ke...')
+#4 C:\xampp_new\htdocs\ci-4\app\Controllers\Login.php(18): CodeIgniter\HTTP\CURLRequest->request('post', 'https://api2.ke...', Array)
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->login()
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-12 05:14:34 --> strlen() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strlen() expect...', 'C:\\xampp_new\\ht...', 534, Array)
+#1 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(534): strlen(Array)
+#2 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(440): CodeIgniter\HTTP\CURLRequest->applyMethod('POST', Array)
+#3 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('post', 'https://api2.ke...')
+#4 C:\xampp_new\htdocs\ci-4\app\Controllers\Login.php(16): CodeIgniter\HTTP\CURLRequest->request('post', 'https://api2.ke...')
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->login()
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-12 05:14:43 --> strlen() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strlen() expect...', 'C:\\xampp_new\\ht...', 534, Array)
+#1 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(534): strlen(Array)
+#2 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(440): CodeIgniter\HTTP\CURLRequest->applyMethod('POST', Array)
+#3 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('post', 'https://api2.ke...')
+#4 C:\xampp_new\htdocs\ci-4\app\Controllers\Login.php(18): CodeIgniter\HTTP\CURLRequest->request('post', 'https://api2.ke...', Array)
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->login()
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-12 05:18:29 --> strlen() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strlen() expect...', 'C:\\xampp_new\\ht...', 534, Array)
+#1 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(534): strlen(Array)
+#2 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(440): CodeIgniter\HTTP\CURLRequest->applyMethod('POST', Array)
+#3 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('post', 'https://api2.ke...')
+#4 C:\xampp_new\htdocs\ci-4\app\Controllers\Login.php(18): CodeIgniter\HTTP\CURLRequest->request('post', 'https://api2.ke...', Array)
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->login()
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-12 05:18:59 --> {0} : {1}
+#0 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('post', 'https://api2.ke...')
+#3 C:\xampp_new\htdocs\ci-4\app\Controllers\Login.php(17): CodeIgniter\HTTP\CURLRequest->request('post', 'https://api2.ke...', Array)
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->login()
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-12 05:19:11 --> {0} : {1}
+#0 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('post', 'https://api2.ke...')
+#3 C:\xampp_new\htdocs\ci-4\app\Controllers\Login.php(18): CodeIgniter\HTTP\CURLRequest->request('post', 'https://api2.ke...', Array)
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->login()
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-12 05:23:09 --> syntax error, unexpected ']'
+#0 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#1 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-12 05:27:18 --> Cannot access protected property CodeIgniter\HTTP\Response::$body
+#0 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->login()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-12 05:27:23 --> Call to undefined method CodeIgniter\HTTP\Response::body()
+#0 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->login()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-12 05:33:32 --> Call to a member function getContents() on string
+#0 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->login()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-12 05:34:19 --> Call to a member function getContents() on string
+#0 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->login()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-12 05:39:16 --> {0} : {1}
+#0 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('GET', 'https://api2.ke...')
+#3 C:\xampp_new\htdocs\ci-4\app\Controllers\Login.php(21): CodeIgniter\HTTP\CURLRequest->request('GET', 'https://api2.ke...', Array, '{"json":{"usern...')
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->login()
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-12 05:40:01 --> {0} : {1}
+#0 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('GET', 'https://api2.ke...')
+#3 C:\xampp_new\htdocs\ci-4\app\Controllers\Login.php(21): CodeIgniter\HTTP\CURLRequest->request('GET', 'https://api2.ke...', Array, '{"json":{"usern...')
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->login()
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-12 05:40:08 --> {0} : {1}
+#0 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp_new\htdocs\ci-4\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('GET', 'https://api2.ke...')
+#3 C:\xampp_new\htdocs\ci-4\app\Controllers\Login.php(21): CodeIgniter\HTTP\CURLRequest->request('GET', 'https://api2.ke...', Array, Array)
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->login()
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-12 05:44:42 --> syntax error, unexpected '$request' (T_VARIABLE)
+#0 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#1 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-12 05:44:46 --> syntax error, unexpected '$request' (T_VARIABLE)
+#0 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#1 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-12 05:46:14 --> syntax error, unexpected '$request' (T_VARIABLE)
+#0 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#1 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-12 05:46:23 --> syntax error, unexpected '$request' (T_VARIABLE)
+#0 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#1 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-12 05:47:31 --> syntax error, unexpected '$request' (T_VARIABLE)
+#0 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#1 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-12 05:47:52 --> syntax error, unexpected '$request' (T_VARIABLE)
+#0 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#1 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-12 05:48:05 --> syntax error, unexpected '$request' (T_VARIABLE)
+#0 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#1 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-12 18:39:03 --> Too few arguments to function App\Controllers\Login::login(), 0 passed in C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->login()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-12 18:39:38 --> Too few arguments to function App\Controllers\Login::login(), 0 passed in C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->login()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-12 18:39:55 --> Too few arguments to function App\Controllers\Login::login(), 0 passed in C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->login()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-12 18:49:17 --> date() expects at least 1 parameter, 0 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date() expects ...', 'C:\\xampp_new\\ht...', 24, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Views\login\index.php(24): date()
+#2 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#3 C:\xampp_new\htdocs\ci-4\system\Common.php(1087): CodeIgniter\View\View->render('login/index', Array, true)
+#4 C:\xampp_new\htdocs\ci-4\app\Controllers\Login.php(42): view('login/index')
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->loginPage()
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-12 19:03:23 --> Call to a member function post() on null
+#0 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->loginPost()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-12 19:04:59 --> Call to a member function getVar() on null
+#0 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->loginPost()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-12 21:01:59 --> syntax error, unexpected ''auth_key'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#1 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-12 21:08:24 --> Object of class stdClass could not be converted to string
+#0 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->loginPost()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-12 22:40:52 --> Class 'App\Controllers\Login\BaseController' not found
+#0 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-12 22:40:57 --> Class 'App\Controllers\Login\BaseController' not found
+#0 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-12 22:41:09 --> Class 'App\Controllers\Login\BaseController' not found
+#0 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-12 22:43:53 --> Class 'BaseController' not found
+#0 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-12 22:43:54 --> Class 'BaseController' not found
+#0 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-12 22:44:06 --> Class 'BaseController' not found
+#0 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-12 22:44:38 --> Class 'App\Controllers\Login\BaseController' not found
+#0 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-12 22:44:44 --> Class 'BaseController' not found
+#0 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\ci-4\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-12 23:07:37 --> Call to undefined method CodeIgniter\Session\Session::getToken()
+#0 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Product->productIndex()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-12 23:37:10 --> Object of class stdClass could not be converted to string
+#0 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Product->productIndex()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-12 23:37:33 --> Object of class stdClass could not be converted to string
+#0 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Product->productIndex()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

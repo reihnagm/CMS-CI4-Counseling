@@ -1,0 +1,223 @@
+CRITICAL - 2021-01-13 00:43:59 --> A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+#0 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Report\ReportController.php(14): CodeIgniter\Database\BaseConnection->query('SELECT a.date, ...')
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->index()
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#5 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-13 01:01:48 --> syntax error, unexpected ')'
+#0 C:\xampp_new\htdocs\cms-siswa\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#1 C:\xampp_new\htdocs\cms-siswa\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-13 01:20:32 --> MySQL server has gone away
+#0 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Report\ReportController.php(29): CodeIgniter\Database\BaseConnection->query('SELECT role FRO...')
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->getDtReport('2021-01-12', '2021-01-14', '16')
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#5 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-13 01:33:09 --> Undefined offset: 0
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Report\ReportController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp_new\\ht...', 48, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->getDtReport('2021-01-13', '2021-01-13', 'undefined')
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-13 01:33:20 --> Undefined offset: 0
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Report\ReportController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp_new\\ht...', 48, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->getDtReport('2021-01-13', '2021-02-14', 'undefined')
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-13 01:34:09 --> Undefined offset: 0
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Report\ReportController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp_new\\ht...', 48, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->getDtReport('2021-01-12', '2021-01-14', 'undefined')
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-13 01:34:58 --> Undefined offset: 0
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Report\ReportController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp_new\\ht...', 48, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->getDtReport('2021-01-12', '2021-01-14', 'undefined')
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-13 01:44:24 --> Undefined offset: 0
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Report\ReportController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp_new\\ht...', 48, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->getDtReport('2021-01-12', '2021-01-14', 'null')
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-13 01:45:04 --> Undefined offset: 0
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Report\ReportController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp_new\\ht...', 48, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->getDtReport('2021-01-12', '2021-01-14', '0')
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-13 01:46:55 --> Undefined offset: 0
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Report\ReportController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp_new\\ht...', 48, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->getDtReport('2021-01-12', '2021-01-14', '0')
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-13 01:47:04 --> Undefined offset: 0
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Report\ReportController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp_new\\ht...', 48, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->getDtReport('2021-01-12', '2021-01-14', '0')
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-13 02:01:17 --> Undefined variable: results
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Report\ReportController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 65, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->getDtReport('2021-01-12', '2021-01-14', 'null')
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-13 02:04:49 --> Undefined variable: results
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Report\ReportController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 72, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->getDtReport('2021-01-12', '2021-01-14', 'null')
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-13 02:05:51 --> Undefined variable: results
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Report\ReportController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 72, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->getDtReport('2021-01-13', '2021-01-13', '13')
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-13 02:10:29 --> MySQL server has gone away
+#0 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Report\ReportController.php(69): CodeIgniter\Database\BaseConnection->query('SELECT a.date, ...')
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->getDtReport('2021-01-12', '2021-01-14', 'null')
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#5 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-13 02:43:30 --> Maximum execution time of 3000 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-13 04:53:49 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 C:\xampp_new\htdocs\cms-siswa\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#1 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(58): view('dashboard/index', Array)
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->index()
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-13 04:58:02 --> A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+#0 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(26): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->index()
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#5 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-13 04:58:15 --> A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+#0 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(26): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->index()
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#5 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-13 04:58:29 --> A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+#0 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(26): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->index()
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#5 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-13 05:00:27 --> MySQL server has gone away
+#0 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\User\UserController.php(42): CodeIgniter\Database\BaseConnection->query('SELECT a.id, a....')
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\User\UserController->getUser()
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\UserController))
+#5 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-13 05:35:40 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 C:\xampp_new\htdocs\cms-siswa\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#1 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(58): view('dashboard/index', Array)
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->index()
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-13 10:32:09 --> Undefined offset: 0
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Auth\AuthController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp_new\\ht...', 23, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Auth\AuthController->loginPost()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth\AuthController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-13 10:32:29 --> Undefined offset: 0
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Auth\AuthController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp_new\\ht...', 23, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Auth\AuthController->loginPost()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth\AuthController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-13 20:25:30 --> Undefined offset: 0
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Auth\AuthController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp_new\\ht...', 23, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Auth\AuthController->loginPost()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth\AuthController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-13 20:25:38 --> Undefined offset: 0
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Auth\AuthController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp_new\\ht...', 23, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Auth\AuthController->loginPost()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth\AuthController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-13 22:33:44 --> Trying to get property 'username' of non-object
+#0 C:\xampp_new\htdocs\cms-siswa\app\Views\template-master-admin\aside.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp_new\\ht...', 18, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cms-siswa\system\Common.php(1087): CodeIgniter\View\View->render('template-master...', Array, true)
+#3 C:\xampp_new\htdocs\cms-siswa\app\Views\admission\detail.php(9): view('template-master...')
+#4 C:\xampp_new\htdocs\cms-siswa\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#5 C:\xampp_new\htdocs\cms-siswa\system\Common.php(1087): CodeIgniter\View\View->render('admission/detai...', Array, true)
+#6 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Admission\AdmissionController.php(36): view('admission/detai...', Array)
+#7 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Admission\AdmissionController->detail('150')
+#8 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admission\AdmissionController))
+#9 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-01-13 22:37:29 --> Cannot add or update a child row: a foreign key constraint fails (`counseling`.`omega_students`, CONSTRAINT `omega_students_omega_status_id_fk` FOREIGN KEY (`status`) REFERENCES `omega_statuses_counselor` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp_new\htdocs\cms-siswa\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE omega_st...')
+#1 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE omega_st...')
+#2 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Admission\AdmissionController.php(48): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE omega_st...')
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Admission\AdmissionController->changeStatus()
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admission\AdmissionController))
+#5 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,95 @@
+CRITICAL - 2021-01-04 10:00:51 --> Call to undefined function App\Controllers\Admin\Dashboard\curlHelper()
+#0 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getDtSiswa('2020-12-27', '2020-12-27', '2003')
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-04 10:16:03 --> Call to undefined function App\Controllers\Admin\Dashboard\curlHelper()
+#0 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getDtSiswa('2020-12-27', '2020-12-27', '2003')
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-04 10:16:48 --> Call to undefined function App\Controllers\Admin\Dashboard\fdate()
+#0 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getDtSiswa('2020-12-27', '2020-12-27', '2003')
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-04 11:13:09 --> Undefined property: stdClass::$total
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 21, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getDtSiswa('2020-12-01', '2020-12-07', '2003')
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-04 11:13:48 --> Undefined property: stdClass::$total
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 21, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getDtSiswa('2020-12-01', '2020-12-07', '2003')
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-04 17:52:19 --> file_get_contents(): read of 8192 bytes failed with errno=13 Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'C:\\xampp_new\\ht...', 111, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\Debug\Toolbar\Collectors\History.php(111): file_get_contents('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cms-siswa\system\Debug\Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1609804333, 20)
+#3 C:\xampp_new\htdocs\cms-siswa\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp_new\htdocs\cms-siswa\app\Config\Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp_new\htdocs\cms-siswa\system\Events\Events.php(188): call_user_func(Object(Closure))
+#7 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(289): CodeIgniter\Events\Events::trigger('pre_system')
+#8 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-01-04 18:32:03 --> Undefined variable: test
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 43, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getDtSiswa('null', 'null', 'null')
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-04 18:32:30 --> Undefined index: demo
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_new\\ht...', 44, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getDtSiswa('null', 'null', 'null')
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-04 18:37:23 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';'
+#0 C:\xampp_new\htdocs\cms-siswa\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#1 C:\xampp_new\htdocs\cms-siswa\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-04 20:36:50 --> Undefined variable: year
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 17, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getDtSiswa('2020-12-27', '2020-12-31', '2003')
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-04 20:54:37 --> Undefined property: stdClass::$total
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 21, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getDtSiswa('2020-12-01', '2020-12-01', '2003')
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-04 23:29:03 --> Trying to get property 'code' of non-object
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp_new\\ht...', 18, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getDtSiswa('2020-12-27', '2020-12-31', '2003')
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-04 23:29:25 --> Trying to get property 'code' of non-object
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp_new\\ht...', 18, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getDtSiswa('2020-12-27', '2020-12-31', '2003')
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}

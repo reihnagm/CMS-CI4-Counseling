@@ -1,0 +1,166 @@
+CRITICAL - 2020-07-21 22:50:50 --> 7 : Failed to connect to api2.kepasar.co.id port 8000: Connection refused
+#0 C:\xampp\htdocs\cms_ci4_gitlab\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('7', 'Failed to conne...')
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://api2.kep...')
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Helpers\curl_helper.php(56): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://api2.kep...', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\app\Helpers\product_helper.php(87): curlPortHelper('http://api2.kep...', 'GET', Array, '')
+#5 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(14): totalTransaksi()
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#7 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#8 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-07-21 22:51:07 --> 28 : Failed to connect to api2.kepasar.co.id port 8000: Timed out
+#0 C:\xampp\htdocs\cms_ci4_gitlab\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('28', 'Failed to conne...')
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://api2.kep...')
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Helpers\curl_helper.php(56): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://api2.kep...', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\app\Helpers\product_helper.php(87): curlPortHelper('http://api2.kep...', 'GET', Array, '')
+#5 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(14): totalTransaksi()
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#7 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#8 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-07-21 22:51:16 --> 28 : Failed to connect to api2.kepasar.co.id port 8000: Timed out
+#0 C:\xampp\htdocs\cms_ci4_gitlab\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('28', 'Failed to conne...')
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://api2.kep...')
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Helpers\curl_helper.php(56): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://api2.kep...', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\app\Helpers\product_helper.php(87): curlPortHelper('http://api2.kep...', 'GET', Array, '')
+#5 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(14): totalTransaksi()
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#7 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#8 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-07-21 22:51:18 --> 7 : Failed to connect to api2.kepasar.co.id port 8000: Connection refused
+#0 C:\xampp\htdocs\cms_ci4_gitlab\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('7', 'Failed to conne...')
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://api2.kep...')
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Helpers\curl_helper.php(56): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://api2.kep...', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\app\Helpers\product_helper.php(87): curlPortHelper('http://api2.kep...', 'GET', Array, '')
+#5 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(14): totalTransaksi()
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#7 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#8 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-07-21 22:51:30 --> 7 : Failed to connect to api2.kepasar.co.id port 8000: Connection refused
+#0 C:\xampp\htdocs\cms_ci4_gitlab\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('7', 'Failed to conne...')
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://api2.kep...')
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Helpers\curl_helper.php(56): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://api2.kep...', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\app\Helpers\product_helper.php(87): curlPortHelper('http://api2.kep...', 'GET', Array, '')
+#5 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(14): totalTransaksi()
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#7 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#8 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-07-21 22:51:45 --> 7 : Failed to connect to api2.kepasar.co.id port 8000: Connection refused
+#0 C:\xampp\htdocs\cms_ci4_gitlab\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('7', 'Failed to conne...')
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://api2.kep...')
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Helpers\curl_helper.php(56): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://api2.kep...', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\app\Helpers\product_helper.php(87): curlPortHelper('http://api2.kep...', 'GET', Array, '')
+#5 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(14): totalTransaksi()
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#7 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#8 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-07-21 22:55:15 --> 7 : Failed to connect to api2.kepasar.co.id port 8000: Connection refused
+#0 C:\xampp\htdocs\cms_ci4_gitlab\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('7', 'Failed to conne...')
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://api2.kep...')
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Helpers\curl_helper.php(56): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://api2.kep...', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\app\Helpers\product_helper.php(87): curlPortHelper('http://api2.kep...', 'GET', Array, '')
+#5 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(14): totalTransaksi()
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#7 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#8 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-07-21 23:19:04 --> Undefined property: stdClass::$markets
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Helpers\product_helper.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(19): totalMarket()
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-21 23:19:32 --> Undefined property: stdClass::$resutls
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\outlet\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('outlet/index', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Outlet\Outlet.php(15): view('outlet/index', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Outlet\Outlet->index()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Outlet\Outlet))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-21 23:19:57 --> Undefined property: stdClass::$resutls
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\outlet\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('outlet/index', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Outlet\Outlet.php(15): view('outlet/index', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Outlet\Outlet->index()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Outlet\Outlet))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-21 23:23:37 --> Undefined property: stdClass::$resutls
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\outlet\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('outlet/index', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Outlet\Outlet.php(15): view('outlet/index', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Outlet\Outlet->index()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Outlet\Outlet))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-21 23:39:02 --> Undefined property: stdClass::$resutls
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\outlet\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('outlet/index', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Outlet\Outlet.php(15): view('outlet/index', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Outlet\Outlet->index()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Outlet\Outlet))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-21 23:49:11 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(37): count(NULL)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-21 23:54:14 --> Undefined property: stdClass::$resutls
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\outlet\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('outlet/index', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Outlet\Outlet.php(16): view('outlet/index', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Outlet\Outlet->index()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Outlet\Outlet))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-21 23:55:03 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(37): count(NULL)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-21 23:57:06 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Transaction\Transaction.php(37): count(NULL)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Transaction\Transaction->periode()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaction\Transaction))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

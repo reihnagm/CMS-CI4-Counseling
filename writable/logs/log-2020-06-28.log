@@ -1,0 +1,242 @@
+<<<<<<< HEAD
+CRITICAL - 2020-06-28 22:44:48 --> Undefined variable: courier_user
+#0 C:\xampp\htdocs\kp\cms-kepasar\app\Views\user\courier_user.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\kp\cms-kepasar\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp\cms-kepasar\system\Common.php(1087): CodeIgniter\View\View->render('user/courier_us...', Array, true)
+#3 C:\xampp\htdocs\kp\cms-kepasar\app\Controllers\Admin\User\User.php(66): view('user/courier_us...')
+#4 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->courierUser()
+#5 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kp\cms-kepasar\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-28 22:45:59 --> Undefined variable: courier_users
+#0 C:\xampp\htdocs\kp\cms-kepasar\app\Views\user\courier_user.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\kp\cms-kepasar\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp\cms-kepasar\system\Common.php(1087): CodeIgniter\View\View->render('user/courier_us...', Array, true)
+#3 C:\xampp\htdocs\kp\cms-kepasar\app\Controllers\Admin\User\User.php(66): view('user/courier_us...')
+#4 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->courierUser()
+#5 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kp\cms-kepasar\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-28 22:48:09 --> Undefined variable: courier_users
+#0 C:\xampp\htdocs\kp\cms-kepasar\app\Views\user\courier_user.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\kp\cms-kepasar\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp\cms-kepasar\system\Common.php(1087): CodeIgniter\View\View->render('user/courier_us...', Array, true)
+#3 C:\xampp\htdocs\kp\cms-kepasar\app\Controllers\Admin\User\User.php(66): view('user/courier_us...')
+#4 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->courierUser()
+#5 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kp\cms-kepasar\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-28 22:48:19 --> Undefined property: stdClass::$common_users
+#0 C:\xampp\htdocs\kp\cms-kepasar\app\Views\user\common_user.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\kp\cms-kepasar\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp\cms-kepasar\system\Common.php(1087): CodeIgniter\View\View->render('user/common_use...', Array, true)
+#3 C:\xampp\htdocs\kp\cms-kepasar\app\Controllers\Admin\User\User.php(47): view('user/common_use...', Array)
+#4 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->commonUser()
+#5 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kp\cms-kepasar\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-28 22:49:38 --> Undefined property: stdClass::$common_users
+#0 C:\xampp\htdocs\kp\cms-kepasar\app\Views\user\common_user.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\kp\cms-kepasar\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp\cms-kepasar\system\Common.php(1087): CodeIgniter\View\View->render('user/common_use...', Array, true)
+#3 C:\xampp\htdocs\kp\cms-kepasar\app\Controllers\Admin\User\User.php(47): view('user/common_use...', Array)
+#4 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->commonUser()
+#5 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kp\cms-kepasar\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-28 22:50:13 --> Undefined property: stdClass::$common_users
+#0 C:\xampp\htdocs\kp\cms-kepasar\app\Views\user\common_user.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\kp\cms-kepasar\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp\cms-kepasar\system\Common.php(1087): CodeIgniter\View\View->render('user/common_use...', Array, true)
+#3 C:\xampp\htdocs\kp\cms-kepasar\app\Controllers\Admin\User\User.php(47): view('user/common_use...', Array)
+#4 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->commonUser()
+#5 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kp\cms-kepasar\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-28 22:53:54 --> Undefined variable: courier_users
+#0 C:\xampp\htdocs\kp\cms-kepasar\app\Views\user\courier_user.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\kp\cms-kepasar\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp\cms-kepasar\system\Common.php(1087): CodeIgniter\View\View->render('user/courier_us...', Array, true)
+#3 C:\xampp\htdocs\kp\cms-kepasar\app\Controllers\Admin\User\User.php(66): view('user/courier_us...')
+#4 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->courierUser()
+#5 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kp\cms-kepasar\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-28 22:55:07 --> Undefined variable: courier_users
+#0 C:\xampp\htdocs\kp\cms-kepasar\app\Views\user\courier_user.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\kp\cms-kepasar\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp\cms-kepasar\system\Common.php(1087): CodeIgniter\View\View->render('user/courier_us...', Array, true)
+#3 C:\xampp\htdocs\kp\cms-kepasar\app\Controllers\Admin\User\User.php(66): view('user/courier_us...', Array)
+#4 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->courierUser()
+#5 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kp\cms-kepasar\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-28 22:55:33 --> Undefined variable: users
+#0 C:\xampp\htdocs\kp\cms-kepasar\app\Views\user\courier_user.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\kp\cms-kepasar\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp\cms-kepasar\system\Common.php(1087): CodeIgniter\View\View->render('user/courier_us...', Array, true)
+#3 C:\xampp\htdocs\kp\cms-kepasar\app\Controllers\Admin\User\User.php(66): view('user/courier_us...', Array)
+#4 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->courierUser()
+#5 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kp\cms-kepasar\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-28 22:59:42 --> Call to undefined method stdClass::getStatusCode()
+#0 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->index()
+#1 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#2 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kp\cms-kepasar\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+=======
+CRITICAL - 2020-06-28 22:29:53 --> Undefined property: stdClass::$data
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\user\vendor_user.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 80, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/vendor_use...', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(65): view('user/vendor_use...', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->vendorUser()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-28 22:31:28 --> Trying to get property 'uid' of non-object
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\user\vendor_user.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/vendor_use...', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(65): view('user/vendor_use...', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->vendorUser()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-28 22:37:54 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\xampp\htdocs\cms_ci4_gitlab\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-28 22:38:53 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\xampp\htdocs\cms_ci4_gitlab\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-28 22:46:15 --> Undefined variable: users
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\user\admin_user.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/admin_user', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(61): view('user/admin_user')
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->adminUser()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-28 22:47:29 --> Undefined variable: users
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\user\admin_user.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/admin_user', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(61): view('user/admin_user')
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->adminUser()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-28 22:48:41 --> Undefined variable: users
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\user\admin_user.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/admin_user', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(61): view('user/admin_user')
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->adminUser()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-28 22:50:25 --> Undefined variable: users
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\user\admin_user.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/admin_user', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(61): view('user/admin_user')
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->adminUser()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-28 22:51:47 --> Undefined variable: admins
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\user\admin_user.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/admin_user', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(61): view('user/admin_user')
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->adminUser()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-28 22:51:48 --> Undefined variable: admins
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\user\admin_user.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/admin_user', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(61): view('user/admin_user')
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->adminUser()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-28 22:52:29 --> Undefined variable: admins
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\user\admin_user.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/admin_user', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(61): view('user/admin_user')
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->adminUser()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-28 22:52:54 --> Trying to get property 'uid' of non-object
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\user\admin_user.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/admin_user', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(61): view('user/admin_user', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->adminUser()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+<<<<<<< HEAD
+CRITICAL - 2020-06-28 23:28:44 --> Request URI segment is our of range: 2
+#0 C:\xampp\htdocs\cms_ci4_gitlab\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\templates\admin\sidebar.php(111): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(9): CodeIgniter\View\View->include('templates/admin...')
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(13): view('dashboard/index', Array)
+#8 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#9 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#10 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+=======
+>>>>>>> 29d1e84323d3ca82c805c70e7282980593933a71
+>>>>>>> d6ba69a73bedea62f0e4a63f4d44b61e35f4fc8f
+CRITICAL - 2020-06-28 23:40:25 --> Call to undefined method stdClass::getStatusCode()
+#0 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->index()
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

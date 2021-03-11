@@ -1,0 +1,310 @@
+CRITICAL - 2020-06-13 02:40:37 --> Invalid file: {0}
+#0 C:\xampp_new\htdocs\ci-4\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\xampp_new\htdocs\ci-4\system\Common.php(1087): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp_new\htdocs\ci-4\app\Controllers\Dashboard.php(9): view('home')
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(886): App\Controllers\Dashboard->__construct()
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 02:40:44 --> Invalid file: {0}
+#0 C:\xampp_new\htdocs\ci-4\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\xampp_new\htdocs\ci-4\system\Common.php(1087): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp_new\htdocs\ci-4\app\Controllers\Dashboard.php(9): view('home')
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(886): App\Controllers\Dashboard->__construct()
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 02:52:40 --> Class App\Controllers\Dashboard cannot extend from interface CodeIgniter\Filters\FilterInterface
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-13 02:53:39 --> Class App\Controllers\Dashboard contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::after)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-13 02:53:40 --> Class App\Controllers\Dashboard contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::after)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-13 02:53:41 --> Class App\Controllers\Dashboard contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::after)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-13 02:53:41 --> Class App\Controllers\Dashboard contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::after)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-13 03:03:24 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp_new\htdocs\ci-4\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp_new\htdocs\ci-4\system\Common.php(813): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp_new\htdocs\ci-4\app\Filters\isLoggedIn.php(13): redirect('dashboard')
+#3 C:\xampp_new\htdocs\ci-4\system\Filters\Filters.php(173): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('/dashboard', 'before')
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 03:03:28 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp_new\htdocs\ci-4\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp_new\htdocs\ci-4\system\Common.php(813): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp_new\htdocs\ci-4\app\Filters\isLoggedIn.php(13): redirect('dashboard')
+#3 C:\xampp_new\htdocs\ci-4\system\Filters\Filters.php(173): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('/dashboard', 'before')
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 03:04:41 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp_new\htdocs\ci-4\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp_new\htdocs\ci-4\system\Common.php(813): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp_new\htdocs\ci-4\app\Filters\isLoggedIn.php(13): redirect('dashboard')
+#3 C:\xampp_new\htdocs\ci-4\system\Filters\Filters.php(173): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('/', 'before')
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 03:04:43 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp_new\htdocs\ci-4\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp_new\htdocs\ci-4\system\Common.php(813): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp_new\htdocs\ci-4\app\Filters\isLoggedIn.php(13): redirect('dashboard')
+#3 C:\xampp_new\htdocs\ci-4\system\Filters\Filters.php(173): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('/', 'before')
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 04:13:42 --> Call to undefined function App\Controllers\curlHelper()
+#0 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Product->productIndex()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-13 04:14:01 --> Call to undefined function App\Controllers\curlHelper()
+#0 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Product->productIndex()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-13 05:35:10 --> Call to undefined function App\Controllers\curlHelper()
+#0 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Login->loginPost()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-13 19:07:49 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp_new\\ht...', 20, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Controllers\Product.php(20): count(Object(stdClass))
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Product->productIndex()
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-13 19:40:52 --> Call to undefined function curlHelper()
+#0 C:\xampp_new\htdocs\ci-4\app\Controllers\Dashboard.php(13): totalProduct()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Dashboard->index()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-13 19:43:07 --> Call to undefined function curlHelper()
+#0 C:\xampp_new\htdocs\ci-4\app\Controllers\Dashboard.php(13): totalProduct()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Dashboard->index()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-13 19:43:31 --> Call to undefined function curlHelper()
+#0 C:\xampp_new\htdocs\ci-4\app\Controllers\Dashboard.php(13): total()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Dashboard->index()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-13 21:20:49 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp_new\htdocs\ci-4\app\Helpers\product_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp_new\\ht...', 7, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(14): totalProduct()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-13 21:20:53 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp_new\htdocs\ci-4\app\Helpers\product_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp_new\\ht...', 7, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(14): totalProduct()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-13 21:21:34 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp_new\htdocs\ci-4\app\Helpers\product_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp_new\\ht...', 7, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(14): totalProduct()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-13 21:22:26 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp_new\htdocs\ci-4\app\Helpers\product_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp_new\\ht...', 7, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(14): totalProduct()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-13 21:22:28 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp_new\htdocs\ci-4\app\Helpers\product_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp_new\\ht...', 7, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(14): totalProduct()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-13 21:22:44 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp_new\htdocs\ci-4\app\Helpers\product_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp_new\\ht...', 7, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(14): totalProduct()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-13 21:23:08 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp_new\htdocs\ci-4\app\Helpers\product_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp_new\\ht...', 7, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(15): totalProduct()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-13 21:23:46 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp_new\htdocs\ci-4\app\Helpers\product_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp_new\\ht...', 7, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(14): totalProduct()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-13 21:24:38 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp_new\htdocs\ci-4\app\Helpers\product_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp_new\\ht...', 7, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(14): totalProduct()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-13 21:26:19 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp_new\htdocs\ci-4\app\Helpers\product_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp_new\\ht...', 7, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(14): totalProduct()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-13 22:02:25 --> Call to undefined function App\Controllers\Admin\curlHelper()
+#0 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Test->store()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Test))
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-13 22:02:51 --> Call to undefined function App\Controllers\Admin\curlHelper()
+#0 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Test->store()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Test))
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-13 22:02:55 --> Call to undefined function App\Controllers\Admin\curlHelper()
+#0 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Test->store()
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Test))
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-13 23:28:44 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp_new\htdocs\ci-4\app\Helpers\product_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp_new\\ht...', 7, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(11): totalProduct()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-13 23:28:46 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp_new\htdocs\ci-4\app\Helpers\product_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp_new\\ht...', 7, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(11): totalProduct()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-13 23:32:51 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp_new\htdocs\ci-4\app\Helpers\product_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp_new\\ht...', 7, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(11): totalProduct()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-13 23:33:34 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp_new\htdocs\ci-4\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp_new\htdocs\ci-4\system\Common.php(813): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp_new\htdocs\ci-4\app\Filters\isLoggedIn.php(13): redirect('login')
+#3 C:\xampp_new\htdocs\ci-4\system\Filters\Filters.php(173): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('/admin/dashboar...', 'before')
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 23:40:24 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp_new\htdocs\ci-4\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp_new\htdocs\ci-4\system\Common.php(813): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp_new\htdocs\ci-4\app\Filters\isLoggedIn.php(13): redirect('login')
+#3 C:\xampp_new\htdocs\ci-4\system\Filters\Filters.php(173): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('/', 'before')
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 23:43:23 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp_new\htdocs\ci-4\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp_new\htdocs\ci-4\system\Common.php(813): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp_new\htdocs\ci-4\app\Filters\isLoggedIn.php(13): redirect('login')
+#3 C:\xampp_new\htdocs\ci-4\system\Filters\Filters.php(173): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('/', 'before')
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 23:43:38 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp_new\htdocs\ci-4\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp_new\htdocs\ci-4\system\Common.php(813): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp_new\htdocs\ci-4\app\Filters\isLoggedIn.php(13): redirect('login')
+#3 C:\xampp_new\htdocs\ci-4\system\Filters\Filters.php(173): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('/', 'before')
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 23:44:03 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp_new\htdocs\ci-4\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp_new\htdocs\ci-4\system\Common.php(813): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp_new\htdocs\ci-4\app\Filters\isLoggedIn.php(13): redirect('login')
+#3 C:\xampp_new\htdocs\ci-4\system\Filters\Filters.php(173): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('/', 'before')
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 23:44:12 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp_new\htdocs\ci-4\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp_new\htdocs\ci-4\system\Common.php(813): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp_new\htdocs\ci-4\app\Filters\isLoggedIn.php(13): redirect('login')
+#3 C:\xampp_new\htdocs\ci-4\system\Filters\Filters.php(173): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('/', 'before')
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 23:45:09 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp_new\htdocs\ci-4\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp_new\htdocs\ci-4\system\Common.php(813): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp_new\htdocs\ci-4\app\Filters\isLoggedIn.php(13): redirect('login')
+#3 C:\xampp_new\htdocs\ci-4\system\Filters\Filters.php(173): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('/', 'before')
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-13 23:45:10 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp_new\htdocs\ci-4\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp_new\htdocs\ci-4\system\Common.php(813): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp_new\htdocs\ci-4\app\Filters\isLoggedIn.php(13): redirect('login')
+#3 C:\xampp_new\htdocs\ci-4\system\Filters\Filters.php(173): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('/', 'before')
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

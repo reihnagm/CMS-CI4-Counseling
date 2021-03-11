@@ -1,0 +1,15 @@
+CRITICAL - 2021-01-05 00:24:55 --> Undefined variable: i
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 42, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(19): App\Controllers\Admin\Dashboard\DashboardController->getDtSiswaEmpty()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getDtSiswa('2020-12-07', '2020-12-07', '2003')
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-05 01:48:29 --> Trying to get property 'code' of non-object
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp_new\\ht...', 18, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getDtSiswa('2020-12-08', '2020-12-08', '2003')
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}

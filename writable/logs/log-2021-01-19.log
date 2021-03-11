@@ -1,0 +1,269 @@
+CRITICAL - 2021-01-19 00:21:13 --> syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp_new\htdocs\cms-siswa\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#1 C:\xampp_new\htdocs\cms-siswa\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-19 00:22:05 --> syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp_new\htdocs\cms-siswa\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#1 C:\xampp_new\htdocs\cms-siswa\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-19 00:34:15 --> Class 'App\Controllers\Admin\Dashboard\stdClass' not found
+#0 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getEvent()
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-19 00:54:44 --> Trying to get property 'code' of non-object
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp_new\\ht...', 104, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getDtSiswa('2020-12-27', '2020-12-31', '2003')
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-19 01:29:05 --> Call to a member function format() on string
+#0 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getEventDelegate()
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-19 05:09:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::insert_id()
+#0 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->delegateStaff()
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-19 05:14:48 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$insertID
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 178, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->delegateStaff()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-19 05:15:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::insertID()
+#0 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->delegateStaff()
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-19 08:26:11 --> Undefined property: stdClass::$id
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(255): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 255, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getEvent()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-19 08:26:43 --> Undefined property: stdClass::$id
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(255): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 255, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getEvent()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-19 09:57:18 --> Unknown column 'a.handled_by' in 'on clause'
+#0 C:\xampp_new\htdocs\cms-siswa\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(218): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getEventDelegate()
+#5 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#6 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-19 09:59:16 --> Unknown column 'c.first_name' in 'field list'
+#0 C:\xampp_new\htdocs\cms-siswa\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(218): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getEventDelegate()
+#5 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#6 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-19 09:59:49 --> Undefined property: stdClass::$first_name
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(256): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 256, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getEventDelegate()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-19 10:00:29 --> Undefined property: stdClass::$first_name
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(256): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 256, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getEventDelegate()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-19 16:40:41 --> Undefined variable: eventDelegate
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(264): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 264, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getEventDelegate()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-19 16:41:22 --> Undefined variable: eventDelegate
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(264): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 264, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getEventDelegate()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-19 16:42:26 --> Undefined variable: eventDelegate
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(264): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 264, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getEventDelegate()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-19 16:45:24 --> Undefined variable: eventDelegate
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(264): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 264, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getEventDelegate()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-19 16:46:43 --> Undefined variable: eventDelegate
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(264): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 264, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getEventDelegate()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-19 16:47:06 --> Undefined variable: eventDelegate
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(264): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 264, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getEventDelegate()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-19 16:49:03 --> Undefined variable: eventDelegate
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(264): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 264, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getEventDelegate()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-19 16:50:11 --> Undefined variable: eventDelegate
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(264): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 264, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getEventDelegate()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-19 16:51:15 --> Undefined variable: eventDelegate
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(264): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 264, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getEventDelegate()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-19 16:53:32 --> Undefined variable: eventDelegate
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(264): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 264, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getEventDelegate()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-19 17:22:24 --> Too few arguments to function App\Controllers\Admin\Dashboard\DashboardController::getDtSiswa(), 3 passed in C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php on line 914 and exactly 4 expected
+#0 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getDtSiswa('2021-01-10', '2021-01-30', '2003')
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-19 17:43:44 --> Trying to get property 'group' of non-object
+#0 C:\xampp_new\htdocs\cms-siswa\app\Views\dashboard\index.php(400): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp_new\\ht...', 400, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cms-siswa\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(68): view('dashboard/index', Array)
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->index()
+#5 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#6 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-19 21:12:46 --> Undefined property: stdClass::$title
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(292): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 292, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getEvent()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-19 21:14:25 --> Undefined property: stdClass::$title
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(292): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 292, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getEvent()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-19 21:15:41 --> Undefined property: stdClass::$title
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(293): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 293, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getEvent()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-19 21:18:29 --> Undefined property: stdClass::$title
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(293): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 293, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getEvent()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-19 21:44:38 --> Undefined index: studentId
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Student\StudentController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_new\\ht...', 15, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Student\StudentController->listComment()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Student\StudentController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-19 21:44:45 --> Undefined index: studentId
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Student\StudentController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_new\\ht...', 15, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Student\StudentController->listComment()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Student\StudentController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-19 21:44:45 --> Undefined index: studentId
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Student\StudentController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_new\\ht...', 15, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Student\StudentController->listComment()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Student\StudentController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-19 21:44:46 --> Undefined index: studentId
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Student\StudentController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_new\\ht...', 15, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Student\StudentController->listComment()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Student\StudentController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-19 21:44:46 --> Undefined index: studentId
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Student\StudentController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_new\\ht...', 15, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Student\StudentController->listComment()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Student\StudentController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-19 21:45:37 --> Undefined index: studentId
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Student\StudentController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_new\\ht...', 15, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Student\StudentController->listComment()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Student\StudentController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-19 21:47:34 --> Undefined index: studentId
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Student\StudentController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_new\\ht...', 15, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Student\StudentController->listComment()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Student\StudentController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}

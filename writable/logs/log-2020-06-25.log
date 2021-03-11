@@ -1,0 +1,10 @@
+CRITICAL - 2020-06-25 03:26:03 --> Trying to get property 'data' of non-object
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\user\index.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(16): view('user/index', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->index()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

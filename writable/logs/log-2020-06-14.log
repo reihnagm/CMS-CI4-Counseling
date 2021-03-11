@@ -1,0 +1,427 @@
+CRITICAL - 2020-06-14 00:32:55 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp_new\htdocs\ci-4\app\Helpers\product_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp_new\\ht...', 7, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(11): totalProduct()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-14 01:30:31 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp_new\htdocs\ci-4\app\Helpers\product_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp_new\\ht...', 7, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(11): totalProduct()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-14 01:30:32 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp_new\htdocs\ci-4\app\Helpers\product_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp_new\\ht...', 7, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(11): totalProduct()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-14 01:30:43 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp_new\htdocs\ci-4\app\Helpers\product_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp_new\\ht...', 7, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(11): totalProduct()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-14 01:30:51 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp_new\htdocs\ci-4\app\Helpers\product_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp_new\\ht...', 7, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(11): totalProduct()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-14 01:31:14 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp_new\htdocs\ci-4\app\Helpers\product_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp_new\\ht...', 7, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(11): totalProduct()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-14 01:31:22 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp_new\htdocs\ci-4\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp_new\htdocs\ci-4\system\Common.php(813): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp_new\htdocs\ci-4\app\Filters\isLoggedIn.php(13): redirect('login')
+#3 C:\xampp_new\htdocs\ci-4\system\Filters\Filters.php(173): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('/admin/auth/log...', 'before')
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-14 01:31:26 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp_new\htdocs\ci-4\app\Helpers\product_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp_new\\ht...', 7, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(11): totalProduct()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-14 01:31:27 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp_new\htdocs\ci-4\app\Helpers\product_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp_new\\ht...', 7, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(11): totalProduct()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-14 01:31:51 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp_new\htdocs\ci-4\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp_new\htdocs\ci-4\system\Common.php(813): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp_new\htdocs\ci-4\app\Filters\isLoggedIn.php(13): redirect('login')
+#3 C:\xampp_new\htdocs\ci-4\system\Filters\Filters.php(173): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('/admin/dashboar...', 'before')
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-14 01:31:55 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp_new\htdocs\ci-4\app\Helpers\product_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp_new\\ht...', 7, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(11): totalProduct()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-14 01:32:04 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp_new\htdocs\ci-4\app\Helpers\product_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp_new\\ht...', 7, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(11): totalProduct()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-14 03:39:44 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp_new\htdocs\ci-4\app\Helpers\product_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp_new\\ht...', 7, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(11): totalProduct()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-14 03:40:27 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp_new\htdocs\ci-4\app\Helpers\product_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp_new\\ht...', 7, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(11): totalProduct()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-14 03:40:28 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp_new\htdocs\ci-4\app\Helpers\product_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp_new\\ht...', 7, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(11): totalProduct()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-14 03:40:34 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp_new\htdocs\ci-4\app\Helpers\product_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp_new\\ht...', 7, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(11): totalProduct()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-14 07:20:46 --> include(): http:// wrapper is disabled in the server configuration by allow_url_include=0
+#0 C:\xampp_new\htdocs\ci-4\app\Views\dashboard\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): http...', 'C:\\xampp_new\\ht...', 33, Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Views\dashboard\index.php(33): include()
+#2 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#3 C:\xampp_new\htdocs\ci-4\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(13): view('dashboard/index', Array)
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-14 07:22:59 --> Call to a member function view() on null
+#0 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include()
+#1 C:\xampp_new\htdocs\ci-4\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#2 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(13): view('dashboard/index', Array)
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-14 07:27:05 --> Call to a member function view() on null
+#0 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include()
+#1 C:\xampp_new\htdocs\ci-4\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#2 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(13): view('dashboard/index', Array)
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-14 07:29:21 --> Call to a member function view() on null
+#0 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include()
+#1 C:\xampp_new\htdocs\ci-4\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#2 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(13): view('dashboard/index', Array)
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-14 07:29:57 --> Call to a member function view() on null
+#0 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include()
+#1 C:\xampp_new\htdocs\ci-4\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#2 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(13): view('dashboard/index', Array)
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-14 07:35:39 --> Call to undefined function vaiew()
+#0 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include()
+#1 C:\xampp_new\htdocs\ci-4\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#2 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(13): view('dashboard/index', Array)
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-14 07:36:00 --> Call to undefined function vaiew()
+#0 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include()
+#1 C:\xampp_new\htdocs\ci-4\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#2 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(13): view('dashboard/index', Array)
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-14 07:41:42 --> Invalid file: {0}
+#0 C:\xampp_new\htdocs\ci-4\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+#1 C:\xampp_new\htdocs\ci-4\system\View\View.php(525): CodeIgniter\View\View->render('sidebar', NULL, true)
+#2 C:\xampp_new\htdocs\ci-4\app\Views\dashboard\index.php(1): CodeIgniter\View\View->include('sidebar')
+#3 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#4 C:\xampp_new\htdocs\ci-4\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#5 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Dashboard\Dashboard.php(13): view('dashboard/index', Array)
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#8 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-14 08:03:39 --> Invalid file: {0}
+#0 C:\xampp_new\htdocs\ci-4\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/produ...')
+#1 C:\xampp_new\htdocs\ci-4\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/produ...', Array, true)
+#2 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Product\Product.php(17): view('dashboard/produ...', Array)
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->index()
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-14 08:03:56 --> Invalid file: {0}
+#0 C:\xampp_new\htdocs\ci-4\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/produ...')
+#1 C:\xampp_new\htdocs\ci-4\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/produ...', Array, true)
+#2 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Product\Product.php(17): view('dashboard/produ...')
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->index()
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-14 08:04:18 --> Undefined variable: totalProduct
+#0 C:\xampp_new\htdocs\ci-4\app\Views\dashboard\productLists.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 31, Array)
+#1 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\ci-4\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/produ...', Array, true)
+#3 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Product\Product.php(17): view('dashboard/produ...')
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->index()
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-14 08:25:52 --> Undefined property: stdClass::$uid
+#0 C:\xampp_new\htdocs\ci-4\app\Views\dashboard\productLists.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 40, Array)
+#1 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\ci-4\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/produ...', Array, true)
+#3 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Product\Product.php(17): view('dashboard/produ...', Array)
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->index()
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-14 18:42:33 --> Trying to get property 'status' of non-object
+#0 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Product\Product.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp_new\\ht...', 14, Array)
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->index()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-14 18:42:59 --> Trying to get property 'status' of non-object
+#0 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Auth\Login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp_new\\ht...', 28, Array)
+#1 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Auth\Login->store()
+#2 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth\Login))
+#3 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-14 18:52:29 --> Undefined property: stdClass::$img
+#0 C:\xampp_new\htdocs\ci-4\app\Views\dashboard\productLists.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 43, Array)
+#1 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\ci-4\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/produ...', Array, true)
+#3 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Product\Product.php(17): view('dashboard/produ...', Array)
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->index()
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-14 19:14:49 --> Class 'NumberFormatter' not found
+#0 C:\xampp_new\htdocs\ci-4\system\Helpers\number_helper.php(173): format_number(30, 3, 'en', Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Views\dashboard\productLists.php(45): number_to_amount(30, 3)
+#2 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#3 C:\xampp_new\htdocs\ci-4\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/produ...', Array, true)
+#4 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Product\Product.php(17): view('dashboard/produ...', Array)
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->index()
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-14 19:15:22 --> Class 'NumberFormatter' not found
+#0 C:\xampp_new\htdocs\ci-4\system\Helpers\number_helper.php(173): format_number(30, 3, 'en', Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Views\dashboard\productLists.php(45): number_to_amount(30, 3)
+#2 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#3 C:\xampp_new\htdocs\ci-4\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/produ...', Array, true)
+#4 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Product\Product.php(17): view('dashboard/produ...', Array)
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->index()
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-14 19:15:54 --> Class 'NumberFormatter' not found
+#0 C:\xampp_new\htdocs\ci-4\system\Helpers\number_helper.php(173): format_number(30, 3, 'en', Array)
+#1 C:\xampp_new\htdocs\ci-4\app\Views\dashboard\productLists.php(45): number_to_amount(30, 3)
+#2 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#3 C:\xampp_new\htdocs\ci-4\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/produ...', Array, true)
+#4 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Product\Product.php(17): view('dashboard/produ...', Array)
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->index()
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-14 19:18:02 --> Class 'NumberFormatter' not found
+#0 C:\xampp_new\htdocs\ci-4\app\Views\dashboard\productLists.php(47): number_to_currency(1000, 'IDR')
+#1 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\ci-4\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/produ...', Array, true)
+#3 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Product\Product.php(17): view('dashboard/produ...', Array)
+#4 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->index()
+#5 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#6 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-14 19:36:43 --> Undefined property: CodeIgniter\View\View::$uri
+#0 C:\xampp_new\htdocs\ci-4\app\Views\templates\admin\sidebar.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 40, Array)
+#1 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\ci-4\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#3 C:\xampp_new\htdocs\ci-4\app\Views\dashboard\productLists.php(9): CodeIgniter\View\View->include('templates/admin...')
+#4 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#5 C:\xampp_new\htdocs\ci-4\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/produ...', Array, true)
+#6 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Product\Product.php(17): view('dashboard/produ...', Array)
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->index()
+#8 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#9 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-14 19:37:44 --> Undefined property: CodeIgniter\View\View::$request
+#0 C:\xampp_new\htdocs\ci-4\app\Views\templates\admin\sidebar.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 40, Array)
+#1 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\ci-4\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#3 C:\xampp_new\htdocs\ci-4\app\Views\dashboard\productLists.php(9): CodeIgniter\View\View->include('templates/admin...')
+#4 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#5 C:\xampp_new\htdocs\ci-4\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/produ...', Array, true)
+#6 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Product\Product.php(17): view('dashboard/produ...', Array)
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->index()
+#8 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#9 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-14 19:38:16 --> Undefined property: CodeIgniter\View\View::$request
+#0 C:\xampp_new\htdocs\ci-4\app\Views\templates\admin\sidebar.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 40, Array)
+#1 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\ci-4\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#3 C:\xampp_new\htdocs\ci-4\app\Views\dashboard\productLists.php(9): CodeIgniter\View\View->include('templates/admin...')
+#4 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#5 C:\xampp_new\htdocs\ci-4\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/produ...', Array, true)
+#6 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Product\Product.php(17): view('dashboard/produ...', Array)
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->index()
+#8 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#9 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-14 19:39:11 --> Undefined variable: request
+#0 C:\xampp_new\htdocs\ci-4\app\Views\templates\admin\sidebar.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 40, Array)
+#1 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\ci-4\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#3 C:\xampp_new\htdocs\ci-4\app\Views\dashboard\productLists.php(9): CodeIgniter\View\View->include('templates/admin...')
+#4 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#5 C:\xampp_new\htdocs\ci-4\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/produ...', Array, true)
+#6 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Product\Product.php(17): view('dashboard/produ...', Array)
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->index()
+#8 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#9 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-14 19:45:56 --> Uncaught ErrorException: Array to string conversion in C:\xampp_new\htdocs\ci-4\app\Views\templates\admin\sidebar.php:40
+Stack trace:
+#0 C:\xampp_new\htdocs\ci-4\app\Views\templates\admin\sidebar.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp_new\\ht...', 40, Array)
+#1 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\ci-4\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#3 C:\xampp_new\htdocs\ci-4\app\Views\dashboard\productLists.php(9): CodeIgniter\View\View->include('templates/admin...')
+#4 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#5 C:\xampp_new\htdocs\ci-4\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/produ...', Array, true)
+#6 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Product\Product.php(17): view('dashboard/produ...', Array)
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\A
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-14 19:50:36 --> Undefined variable: request
+#0 C:\xampp_new\htdocs\ci-4\app\Views\templates\admin\sidebar.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 40, Array)
+#1 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\ci-4\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#3 C:\xampp_new\htdocs\ci-4\app\Views\dashboard\productLists.php(9): CodeIgniter\View\View->include('templates/admin...')
+#4 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#5 C:\xampp_new\htdocs\ci-4\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/produ...', Array, true)
+#6 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Product\Product.php(17): view('dashboard/produ...', Array)
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->index()
+#8 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#9 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-14 19:50:49 --> Undefined property: CodeIgniter\View\View::$uri
+#0 C:\xampp_new\htdocs\ci-4\app\Views\templates\admin\sidebar.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 40, Array)
+#1 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\ci-4\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#3 C:\xampp_new\htdocs\ci-4\app\Views\dashboard\productLists.php(9): CodeIgniter\View\View->include('templates/admin...')
+#4 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#5 C:\xampp_new\htdocs\ci-4\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/produ...', Array, true)
+#6 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Product\Product.php(17): view('dashboard/produ...', Array)
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->index()
+#8 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#9 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-14 19:51:01 --> Undefined variable: uri
+#0 C:\xampp_new\htdocs\ci-4\app\Views\templates\admin\sidebar.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 40, Array)
+#1 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\ci-4\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#3 C:\xampp_new\htdocs\ci-4\app\Views\dashboard\productLists.php(9): CodeIgniter\View\View->include('templates/admin...')
+#4 C:\xampp_new\htdocs\ci-4\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#5 C:\xampp_new\htdocs\ci-4\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/produ...', Array, true)
+#6 C:\xampp_new\htdocs\ci-4\app\Controllers\Admin\Product\Product.php(17): view('dashboard/produ...', Array)
+#7 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->index()
+#8 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#9 C:\xampp_new\htdocs\ci-4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp_new\htdocs\ci-4\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-14 23:55:24 --> Too few arguments to function App\Controllers\Admin\Product\Product::index(), 0 passed in C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->index()
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-14 23:56:23 --> Too few arguments to function App\Controllers\Admin\Product\Product::__construct(), 0 passed in C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php on line 886 and exactly 1 expected
+#0 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(886): App\Controllers\Admin\Product\Product->__construct()
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -1,0 +1,764 @@
+<<<<<<< HEAD
+CRITICAL - 2020-06-29 01:25:26 --> Request URI segment is our of range: 2
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\templates\admin\sidebar.php(128): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(9): CodeIgniter\View\View->include('templates/admin...')
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(13): view('dashboard/index', Array)
+#8 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#9 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#10 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-06-29 01:26:23 --> Request URI segment is our of range: 2
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\templates\admin\sidebar.php(128): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(9): CodeIgniter\View\View->include('templates/admin...')
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(13): view('dashboard/index', Array)
+#8 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#9 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#10 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-06-29 01:34:30 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-29 01:36:28 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-29 01:36:28 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-29 01:37:32 --> Request URI segment is our of range: 2
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\templates\admin\sidebar.php(128): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(9): CodeIgniter\View\View->include('templates/admin...')
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(13): view('dashboard/index', Array)
+#8 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#9 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#10 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-06-29 01:39:09 --> Request URI segment is our of range: 2
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\templates\admin\sidebar.php(128): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(9): CodeIgniter\View\View->include('templates/admin...')
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(13): view('dashboard/index', Array)
+#8 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#9 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#10 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-06-29 01:40:01 --> Request URI segment is our of range: 2
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\templates\admin\sidebar.php(128): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(9): CodeIgniter\View\View->include('templates/admin...')
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(13): view('dashboard/index', Array)
+#8 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#9 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#10 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-06-29 01:41:41 --> Request URI segment is our of range: 2
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\templates\admin\sidebar.php(128): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(9): CodeIgniter\View\View->include('templates/admin...')
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(13): view('dashboard/index', Array)
+#8 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#9 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#10 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-06-29 01:56:51 --> Request URI segment is our of range: 2
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\templates\admin\sidebar.php(128): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(9): CodeIgniter\View\View->include('templates/admin...')
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(13): view('dashboard/index', Array)
+#8 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#9 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#10 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-06-29 01:57:29 --> Request URI segment is our of range: 2
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\templates\admin\sidebar.php(128): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(9): CodeIgniter\View\View->include('templates/admin...')
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(13): view('dashboard/index', Array)
+#8 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#9 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#10 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-06-29 01:59:15 --> Request URI segment is our of range: 2
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\templates\admin\sidebar.php(128): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(9): CodeIgniter\View\View->include('templates/admin...')
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(13): view('dashboard/index', Array)
+#8 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#9 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#10 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-06-29 02:00:08 --> Request URI segment is our of range: 2
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\templates\admin\sidebar.php(128): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(9): CodeIgniter\View\View->include('templates/admin...')
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(13): view('dashboard/index', Array)
+#8 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#9 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#10 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-06-29 02:09:01 --> Request URI segment is our of range: 2
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\templates\admin\sidebar.php(135): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(9): CodeIgniter\View\View->include('templates/admin...')
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(13): view('dashboard/index', Array)
+#8 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#9 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#10 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-06-29 02:09:24 --> Request URI segment is our of range: 2
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\templates\admin\sidebar.php(135): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(9): CodeIgniter\View\View->include('templates/admin...')
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(13): view('dashboard/index', Array)
+#8 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#9 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#10 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-06-29 02:13:46 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-29 02:16:56 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-29 02:29:51 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-29 02:43:48 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-29 02:46:32 --> Trying to get property 'products' of non-object
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Helpers\product_helper.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp_new\\ht...', 11, Array)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(14): totalProduct()
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 05:09:32 --> Trying to get property 'guid' of non-object
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\user\courier_user.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp_new\\ht...', 27, Array)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/courier_us...', Array, true)
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(69): view('user/courier_us...', Array)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->courierUser()
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-29 05:10:25 --> Trying to get property 'market_name' of non-object
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\user\courier_user.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp_new\\ht...', 27, Array)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/courier_us...', Array, true)
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(69): view('user/courier_us...', Array)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->courierUser()
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-29 05:21:39 --> Trying to get property 'users' of non-object
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\user\courier_user.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp_new\\ht...', 69, Array)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/courier_us...', Array, true)
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(69): view('user/courier_us...', Array)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->courierUser()
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-29 05:31:08 --> Trying to get property 'guid' of non-object
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\user\courier_user.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp_new\\ht...', 21, Array)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/courier_us...', Array, true)
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(68): view('user/courier_us...', Array)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->courierUser()
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-29 05:36:11 --> Request URI segment is our of range: 2
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\templates\admin\navbar.php(34): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(6): CodeIgniter\View\View->include('templates/admin...')
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(15): view('dashboard/index', Array)
+#8 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#9 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#10 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-06-29 05:37:40 --> Request URI segment is our of range: 2
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\templates\admin\sidebar.php(111): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(9): CodeIgniter\View\View->include('templates/admin...')
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(15): view('dashboard/index', Array)
+#8 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#9 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#10 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-06-29 05:47:02 --> Undefined variable: market
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\user\courier_user.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 21, Array)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/courier_us...', Array, true)
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(68): view('user/courier_us...', Array)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->courierUser()
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-29 08:11:56 --> Undefined property: stdClass::$users
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\user\courier_user.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 20, Array)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/courier_us...', Array, true)
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(68): view('user/courier_us...', Array)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->courierUser()
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-29 08:12:08 --> Undefined property: stdClass::$users
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\user\courier_user.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 20, Array)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/courier_us...', Array, true)
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(68): view('user/courier_us...', Array)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->courierUser()
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-29 08:12:23 --> Undefined property: stdClass::$users
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\user\courier_user.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 20, Array)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/courier_us...', Array, true)
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(68): view('user/courier_us...', Array)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->courierUser()
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-29 08:27:37 --> Undefined property: stdClass::$users
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\user\courier_user.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 20, Array)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/courier_us...', Array, true)
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(68): view('user/courier_us...', Array)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->courierUser()
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-29 08:27:56 --> Undefined property: stdClass::$users
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\user\courier_user.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 20, Array)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/courier_us...', Array, true)
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(68): view('user/courier_us...', Array)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->courierUser()
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-29 09:08:45 --> Call to undefined function App\Controllers\Admin\Courier\jsonEncode()
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Courier\Courier->assignToCourier()
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Courier\Courier))
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-29 09:09:31 --> array_keys() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_keys() ex...', 'C:\\xampp_new\\ht...', 22, Array)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Helpers\curl_helper.php(22): array_keys('{"kurirId":"cfb...')
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Courier\Courier.php(24): curlHelper('https://167.172...', 'POST', '{"kurirId":"cfb...')
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Courier\Courier->assignToCourier()
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Courier\Courier))
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-29 09:09:31 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp_new\htdocs\cms_ci4_gitlab\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-29 10:01:32 --> array_keys() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_keys() ex...', 'C:\\xampp_new\\ht...', 22, Array)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Helpers\curl_helper.php(22): array_keys('{"kurirId":"1da...')
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Courier\Courier.php(24): curlHelper('http://167.172....', 'POST', '{"kurirId":"1da...')
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Courier\Courier->assignToCourier()
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Courier\Courier))
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-29 10:01:32 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp_new\htdocs\cms_ci4_gitlab\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-29 10:01:44 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\xampp_new\\ht...', 19, Array)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Courier\Courier.php(19): json_decode(Array)
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Courier\Courier->assignToCourier()
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Courier\Courier))
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 10:02:05 --> array_keys() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_keys() ex...', 'C:\\xampp_new\\ht...', 22, Array)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Helpers\curl_helper.php(22): array_keys('{"kurirId":"1da...')
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Courier\Courier.php(24): curlHelper('http://167.172....', 'POST', '{"kurirId":"1da...')
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Courier\Courier->assignToCourier()
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Courier\Courier))
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-29 10:02:05 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp_new\htdocs\cms_ci4_gitlab\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-29 10:54:09 --> Undefined property: stdClass::$users
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\user\courier_user.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 20, Array)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/courier_us...', Array, true)
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(68): view('user/courier_us...', Array)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->courierUser()
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-29 10:54:53 --> Undefined property: stdClass::$users
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\user\courier_user.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 20, Array)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/courier_us...', Array, true)
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(68): view('user/courier_us...', Array)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->courierUser()
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-29 10:55:24 --> Request URI segment is our of range: 2
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\templates\admin\sidebar.php(90): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(9): CodeIgniter\View\View->include('templates/admin...')
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(15): view('dashboard/index', Array)
+#8 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#9 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#10 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-06-29 10:58:57 --> Request URI segment is our of range: 2
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\templates\admin\sidebar.php(90): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(9): CodeIgniter\View\View->include('templates/admin...')
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(15): view('dashboard/index', Array)
+#8 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#9 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#10 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-06-29 10:59:26 --> Request URI segment is our of range: 2
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\templates\admin\sidebar.php(90): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(9): CodeIgniter\View\View->include('templates/admin...')
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(15): view('dashboard/index', Array)
+#8 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#9 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#10 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-06-29 11:00:04 --> Request URI segment is our of range: 2
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\templates\admin\sidebar.php(90): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(9): CodeIgniter\View\View->include('templates/admin...')
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(15): view('dashboard/index', Array)
+#8 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#9 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#10 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-06-29 11:00:41 --> Request URI segment is our of range: 2
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\templates\admin\sidebar.php(90): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(9): CodeIgniter\View\View->include('templates/admin...')
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(15): view('dashboard/index', Array)
+#8 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#9 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#10 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-06-29 11:02:49 --> Undefined property: stdClass::$markets
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\Market\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 33, Array)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('Market/index', Array, true)
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Market\Market.php(15): view('Market/index', Array)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Market\Market->index()
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Market\Market))
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-29 11:03:33 --> Request URI segment is our of range: 2
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\templates\admin\sidebar.php(90): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(9): CodeIgniter\View\View->include('templates/admin...')
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(15): view('dashboard/index', Array)
+#8 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#9 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#10 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+=======
+CRITICAL - 2020-06-29 01:45:12 --> Request URI segment is our of range: 2
+#0 C:\xampp\htdocs\cms_ci4_gitlab\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\templates\admin\sidebar.php(111): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(9): CodeIgniter\View\View->include('templates/admin...')
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(13): view('dashboard/index', Array)
+#8 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#9 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#10 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-06-29 02:02:58 --> Request URI segment is our of range: 2
+#0 C:\xampp\htdocs\cms_ci4_gitlab\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\templates\admin\sidebar.php(111): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(9): CodeIgniter\View\View->include('templates/admin...')
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(13): view('dashboard/index', Array)
+#8 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#9 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#10 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-06-29 02:03:03 --> Request URI segment is our of range: 2
+#0 C:\xampp\htdocs\cms_ci4_gitlab\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\templates\admin\sidebar.php(111): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(9): CodeIgniter\View\View->include('templates/admin...')
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(13): view('dashboard/index', Array)
+#8 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#9 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#10 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-06-29 02:03:49 --> Request URI segment is our of range: 2
+#0 C:\xampp\htdocs\cms_ci4_gitlab\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\templates\admin\sidebar.php(111): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(9): CodeIgniter\View\View->include('templates/admin...')
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(13): view('dashboard/index', Array)
+#8 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#9 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#10 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-06-29 02:19:24 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-29 02:21:00 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-29 02:21:00 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-29 02:26:15 --> Request URI segment is our of range: 2
+#0 C:\xampp\htdocs\cms_ci4_gitlab\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\templates\admin\sidebar.php(111): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(9): CodeIgniter\View\View->include('templates/admin...')
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(13): view('dashboard/index', Array)
+#8 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#9 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#10 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-06-29 02:48:04 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-29 02:51:34 --> Undefined variable: totalUser
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(15): view('dashboard/index', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-29 02:52:03 --> Undefined variable: totalUser
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(15): view('dashboard/index', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-29 02:53:55 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-29 02:53:55 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-29 02:53:55 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-29 02:55:41 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-29 02:57:18 --> syntax error, unexpected '}', expecting ';'
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Base\BaseController.php(48): helper(Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(887): App\Controllers\Base\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-29 02:58:35 --> Undefined variable: totalUser
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(15): view('dashboard/index', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-29 02:58:57 --> Undefined variable: totalUser
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(15): view('dashboard/index', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-29 03:03:06 --> Undefined variable: totalUser
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(15): view('dashboard/index', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-29 03:03:22 --> Undefined variable: totalUser
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(15): view('dashboard/index', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-29 03:06:01 --> Undefined variable: totalUser
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(15): view('dashboard/index', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-29 03:07:18 --> Undefined variable: totalMarket
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(15): view('dashboard/index', Array)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-29 03:10:48 --> Undefined property: stdClass::$count
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Helpers\product_helper.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(16): totalMarket()
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 03:12:29 --> Undefined property: stdClass::$markets
+#0 C:\xampp\htdocs\cms_ci4_gitlab\app\Helpers\product_helper.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(16): totalMarket()
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-29 05:07:08 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-29 05:07:08 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-29 05:07:08 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-29 05:07:08 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+<<<<<<< HEAD
+CRITICAL - 2020-06-29 05:38:13 --> Request URI segment is our of range: 2
+#0 C:\xampp\htdocs\cms_ci4_gitlab\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\templates\admin\navbar.php(45): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(7): CodeIgniter\View\View->include('templates/admin...')
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#7 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(17): view('dashboard/index', Array)
+#8 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#9 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#10 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-06-29 05:39:10 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(7): CodeIgniter\View\View->include('templates/admin...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(17): view('dashboard/index', Array)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#7 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-29 05:39:32 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(525): CodeIgniter\View\View->render('templates/admin...', NULL, true)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\app\Views\dashboard\index.php(7): CodeIgniter\View\View->include('templates/admin...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp\htdocs\cms_ci4_gitlab\app\Controllers\Admin\Dashboard\Dashboard.php(17): view('dashboard/index', Array)
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#7 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+=======
+>>>>>>> ae0508b4d7130d96f796fdfbe5c0018b0479f343
+>>>>>>> 834415a73ac230512797acabb4980edf725595fd

@@ -1,0 +1,605 @@
+CRITICAL - 2020-06-19 01:16:50 --> Undefined variable: stock
+#0 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 45, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-19 01:49:45 --> Call to a member function getFile() on array
+#0 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-19 01:54:13 --> Call to a member function getFile() on array
+#0 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-19 01:56:17 --> Call to a member function getFile() on array
+#0 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-19 02:01:58 --> Call to a member function getFile() on array
+#0 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-19 03:24:37 --> Undefined property: stdClass::$products
+#0 C:\xampp_new\htdocs\cms_ci4\app\Helpers\product_helper.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 11, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Dashboard\Dashboard.php(12): totalProduct()
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-19 03:33:21 --> array_keys() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_keys() ex...', 'C:\\xampp_new\\ht...', 16, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\app\Helpers\curl_helper.php(16): array_keys('{"category_id":...')
+#2 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(59): curlHelper('https://api2.ke...', 'PUT', '{"category_id":...')
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#4 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#5 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-19 03:33:21 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp_new\htdocs\cms_ci4\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp_new\htdocs\cms_ci4\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp_new\htdocs\cms_ci4\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp_new\htdocs\cms_ci4\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp_new\htdocs\cms_ci4\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-19 04:44:39 --> Undefined property: stdClass::$data
+#0 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 54, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-19 04:51:24 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+#0 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-19 04:51:40 --> Undefined property: CodeIgniter\HTTP\Files\UploadedFile::$file
+#0 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 44, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-19 04:58:35 --> Cannot access protected property CodeIgniter\HTTP\Files\UploadedFile::$originalName
+#0 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-19 04:59:29 --> Undefined property: stdClass::$data
+#0 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_new\\ht...', 52, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-19 04:59:37 --> Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php:46
+Stack trace:
+#0 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-19 05:00:46 --> Uncaught ErrorException: Array to string conversion in C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php:45
+Stack trace:
+#0 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp_new\\ht...', 45, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-19 05:01:11 --> Uncaught ErrorException: Array to string conversion in C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php:45
+Stack trace:
+#0 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp_new\\ht...', 45, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-19 05:01:38 --> Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php:47
+Stack trace:
+#0 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-19 05:04:14 --> curl_setopt(): Disabling safe uploads is no longer supported
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'curl_setopt(): ...', 'C:\\xampp_new\\ht...', 21, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\app\Helpers\curl_helper.php(21): curl_setopt(Resource id #111, -1, false)
+#2 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(46): curlHelper('https://api2.ke...', 'POST', Array)
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#4 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#5 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-19 05:04:14 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp_new\htdocs\cms_ci4\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp_new\htdocs\cms_ci4\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp_new\htdocs\cms_ci4\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp_new\htdocs\cms_ci4\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp_new\htdocs\cms_ci4\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-19 05:13:03 --> Array to string conversion
+#0 C:\xampp_new\htdocs\cms_ci4\app\Helpers\curl_helper.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp_new\\ht...', 18, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(45): curlHelper('https://api2.ke...', 'POST', Array)
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#4 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-19 05:13:03 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp_new\htdocs\cms_ci4\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp_new\htdocs\cms_ci4\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp_new\htdocs\cms_ci4\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp_new\htdocs\cms_ci4\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp_new\htdocs\cms_ci4\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-19 05:13:34 --> array_keys() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_keys() ex...', 'C:\\xampp_new\\ht...', 16, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\app\Helpers\curl_helper.php(16): array_keys('{"tags":"Kue Ge...')
+#2 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(45): curlHelper('https://api2.ke...', 'POST', '{"tags":"Kue Ge...')
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#4 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#5 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-19 05:13:34 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp_new\htdocs\cms_ci4\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp_new\htdocs\cms_ci4\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp_new\htdocs\cms_ci4\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp_new\htdocs\cms_ci4\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp_new\htdocs\cms_ci4\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-19 05:14:21 --> array_keys() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_keys() ex...', 'C:\\xampp_new\\ht...', 16, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\app\Helpers\curl_helper.php(16): array_keys('{"tags":"Kue Ge...')
+#2 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(45): curlHelper('https://api2.ke...', 'POST', '{"tags":"Kue Ge...')
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#4 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#5 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-19 05:14:21 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp_new\htdocs\cms_ci4\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp_new\htdocs\cms_ci4\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp_new\htdocs\cms_ci4\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp_new\htdocs\cms_ci4\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp_new\htdocs\cms_ci4\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-19 05:14:44 --> array_keys() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_keys() ex...', 'C:\\xampp_new\\ht...', 16, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\app\Helpers\curl_helper.php(16): array_keys('{"tags":"Kue Ge...')
+#2 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(45): curlHelper('https://api2.ke...', 'POST', '{"tags":"Kue Ge...')
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#4 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#5 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-19 05:14:44 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp_new\htdocs\cms_ci4\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp_new\htdocs\cms_ci4\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp_new\htdocs\cms_ci4\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp_new\htdocs\cms_ci4\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp_new\htdocs\cms_ci4\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-19 05:14:53 --> array_keys() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_keys() ex...', 'C:\\xampp_new\\ht...', 16, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\app\Helpers\curl_helper.php(16): array_keys('{"tags":"Kue Ge...')
+#2 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(45): curlHelper('https://api2.ke...', 'POST', '{"tags":"Kue Ge...')
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#4 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#5 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-19 05:14:53 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp_new\htdocs\cms_ci4\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp_new\htdocs\cms_ci4\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp_new\htdocs\cms_ci4\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp_new\htdocs\cms_ci4\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp_new\htdocs\cms_ci4\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-19 05:14:54 --> array_keys() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_keys() ex...', 'C:\\xampp_new\\ht...', 16, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\app\Helpers\curl_helper.php(16): array_keys('{"tags":"Kue Ge...')
+#2 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(45): curlHelper('https://api2.ke...', 'POST', '{"tags":"Kue Ge...')
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#4 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#5 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-19 05:14:54 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp_new\htdocs\cms_ci4\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp_new\htdocs\cms_ci4\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp_new\htdocs\cms_ci4\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp_new\htdocs\cms_ci4\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp_new\htdocs\cms_ci4\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-19 05:19:37 --> Array to string conversion
+#0 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp_new\\ht...', 45, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-19 05:20:58 --> Array to string conversion
+#0 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp_new\\ht...', 45, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-19 05:21:36 --> Object of class CURLFile could not be converted to string
+#0 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(48): curlHelper('https://api2.ke...', 'POST', Array)
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-19 05:23:27 --> Cannot use object of type CURLFile as array
+#0 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-19 05:25:44 --> Undefined variable: file
+#0 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 45, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-19 05:33:21 --> Class 'App\Controllers\Admin\Product\CurlFile' not found
+#0 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-19 05:42:03 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp_new\htdocs\cms_ci4\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#1 C:\xampp_new\htdocs\cms_ci4\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-19 05:44:48 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp_new\htdocs\cms_ci4\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#1 C:\xampp_new\htdocs\cms_ci4\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-19 07:21:19 --> syntax error, unexpected '$options' (T_VARIABLE), expecting ')'
+#0 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Base\BaseController.php(47): helper(Array)
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(887): App\Controllers\Base\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-19 07:21:30 --> syntax error, unexpected ':', expecting ']'
+#0 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Base\BaseController.php(47): helper(Array)
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(887): App\Controllers\Base\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-19 07:21:40 --> syntax error, unexpected ':', expecting ']'
+#0 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Base\BaseController.php(47): helper(Array)
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(887): App\Controllers\Base\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-19 07:22:29 --> file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'C:\\xampp_new\\ht...', 51, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\app\Helpers\curl_helper.php(51): file_get_contents('https://api2.ke...', false, Resource id #118)
+#2 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(45): httpPost('https://api2.ke...', Array)
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#4 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#5 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-19 07:22:29 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp_new\htdocs\cms_ci4\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp_new\htdocs\cms_ci4\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp_new\htdocs\cms_ci4\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp_new\htdocs\cms_ci4\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp_new\htdocs\cms_ci4\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-19 07:23:50 --> file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'C:\\xampp_new\\ht...', 51, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\app\Helpers\curl_helper.php(51): file_get_contents('https://api2.ke...', false, Resource id #118)
+#2 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(45): httpPost('https://api2.ke...', Array)
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#4 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#5 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-19 07:23:50 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp_new\htdocs\cms_ci4\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp_new\htdocs\cms_ci4\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp_new\htdocs\cms_ci4\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp_new\htdocs\cms_ci4\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp_new\htdocs\cms_ci4\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-19 07:24:19 --> http_build_query() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'http_build_quer...', 'C:\\xampp_new\\ht...', 47, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\app\Helpers\curl_helper.php(47): http_build_query('{"tags":"Kue Ge...')
+#2 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(45): httpPost('https://api2.ke...', Array)
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#4 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#5 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-19 07:24:20 --> http_build_query() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'http_build_quer...', 'C:\\xampp_new\\ht...', 47, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\app\Helpers\curl_helper.php(47): http_build_query('{"tags":"Kue Ge...')
+#2 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(45): httpPost('https://api2.ke...', Array)
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#4 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#5 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-19 07:27:22 --> Undefined index: name
+#0 C:\xampp_new\htdocs\cms_ci4\app\Helpers\curl_helper.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_new\\ht...', 42, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(45): httpPost('https://api2.ke...', Array)
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#4 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-19 07:27:22 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp_new\htdocs\cms_ci4\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp_new\htdocs\cms_ci4\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp_new\htdocs\cms_ci4\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp_new\htdocs\cms_ci4\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp_new\htdocs\cms_ci4\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-19 07:36:05 --> Undefined index: size
+#0 C:\xampp_new\htdocs\cms_ci4\app\Helpers\curl_helper.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_new\\ht...', 43, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(45): httpPost('https://api2.ke...', Array)
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#4 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-19 07:41:23 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp_new\\ht...', 57, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\app\Helpers\curl_helper.php(57): curl_setopt_array(Resource id #118, Array)
+#2 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(45): httpPost('https://api2.ke...', Array)
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#4 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#5 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-19 07:41:23 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp_new\htdocs\cms_ci4\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp_new\htdocs\cms_ci4\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp_new\htdocs\cms_ci4\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp_new\htdocs\cms_ci4\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp_new\htdocs\cms_ci4\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-19 07:42:55 --> Undefined variable: localFile
+#0 C:\xampp_new\htdocs\cms_ci4\app\Helpers\curl_helper.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 43, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(45): httpPost('https://api2.ke...', Array)
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#4 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-19 07:43:10 --> fopen(13177): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(13177): f...', 'C:\\xampp_new\\ht...', 43, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\app\Helpers\curl_helper.php(43): fopen('13177', 'r')
+#2 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(45): httpPost('https://api2.ke...', Array)
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#4 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#5 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-19 07:46:56 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Base\BaseController.php(47): helper(Array)
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(887): App\Controllers\Base\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-19 07:47:03 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Base\BaseController.php(47): helper(Array)
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(887): App\Controllers\Base\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-19 07:47:05 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Base\BaseController.php(47): helper(Array)
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(887): App\Controllers\Base\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-19 07:47:26 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Base\BaseController.php(47): helper(Array)
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(887): App\Controllers\Base\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-19 07:48:27 --> curl_setopt_array(): supplied argument is not a valid File-Handle resource
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'curl_setopt_arr...', 'C:\\xampp_new\\ht...', 58, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\app\Helpers\curl_helper.php(58): curl_setopt_array(Resource id #119, Array)
+#2 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(45): httpPost('https://api2.ke...', Array)
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#4 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#5 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-19 07:48:27 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp_new\htdocs\cms_ci4\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\xampp_new\htdocs\cms_ci4\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp_new\htdocs\cms_ci4\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp_new\htdocs\cms_ci4\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp_new\htdocs\cms_ci4\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-19 07:52:49 --> Array to string conversion
+#0 C:\xampp_new\htdocs\cms_ci4\app\Helpers\curl_helper.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp_new\\ht...', 44, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(45): httpPost('https://api2.ke...', Array)
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#4 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-19 08:10:50 --> Illegal string offset 'file'
+#0 C:\xampp_new\htdocs\cms_ci4\app\Helpers\curl_helper.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp_new\\ht...', 44, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(46): httpPost('https://api2.ke...', 'PUT', Array)
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#4 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-19 08:12:13 --> Illegal string offset 'file'
+#0 C:\xampp_new\htdocs\cms_ci4\app\Helpers\curl_helper.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp_new\\ht...', 44, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(46): httpPost('https://api2.ke...', 'PUT', Array)
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#4 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-19 08:13:08 --> Object of class CURLFile could not be converted to string
+#0 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(46): curlHelper('https://api2.ke...', 'PUT', Array)
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-19 08:14:08 --> Object of class CURLFile could not be converted to string
+#0 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(46): curlHelper('https://api2.ke...', 'PUT', Array)
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-19 08:18:07 --> Undefined index: image
+#0 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_new\\ht...', 43, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-19 08:18:17 --> Illegal string offset 'file'
+#0 C:\xampp_new\htdocs\cms_ci4\app\Helpers\curl_helper.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp_new\\ht...', 44, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(45): curlImageHelper('https://api2.ke...', 'PUT', Array)
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#4 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-19 08:19:30 --> Trying to get property 'data' of non-object
+#0 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp_new\\ht...', 51, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-19 08:21:24 --> Trying to get property 'data' of non-object
+#0 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp_new\\ht...', 51, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-19 08:25:03 --> Undefined index: images
+#0 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_new\\ht...', 43, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-19 08:27:39 --> Undefined variable: fields1
+#0 C:\xampp_new\htdocs\cms_ci4\app\Controllers\Admin\Product\Product.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 47, Array)
+#1 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->update()
+#2 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#3 C:\xampp_new\htdocs\cms_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms_ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

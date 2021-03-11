@@ -1,0 +1,11 @@
+CRITICAL - 2021-01-07 21:13:07 --> Undefined variable: request
+#0 /home/azil/Documents/Connexist/cms-siswa-counseling/app/Views/followup-status/index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/azil/Docu...', 31, Array)
+#1 /home/azil/Documents/Connexist/cms-siswa-counseling/system/View/View.php(246): include('/home/azil/Docu...')
+#2 /home/azil/Documents/Connexist/cms-siswa-counseling/system/Common.php(1087): CodeIgniter\View\View->render('followup-status...', Array, true)
+#3 /home/azil/Documents/Connexist/cms-siswa-counseling/app/Controllers/Admin/FollowUp/FollowUpController.php(12): view('followup-status...')
+#4 /home/azil/Documents/Connexist/cms-siswa-counseling/system/CodeIgniter.php(914): App\Controllers\Admin\FollowUp\FollowUpController->index()
+#5 /home/azil/Documents/Connexist/cms-siswa-counseling/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\FollowUp\FollowUpController))
+#6 /home/azil/Documents/Connexist/cms-siswa-counseling/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/azil/Documents/Connexist/cms-siswa-counseling/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/azil/Documents/Connexist/cms-siswa-counseling/system/Commands/Server/rewrite.php(34): require_once('/home/azil/Docu...')
+#9 {main}

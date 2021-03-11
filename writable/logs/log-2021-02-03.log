@@ -1,0 +1,448 @@
+<<<<<<< HEAD
+CRITICAL - 2021-02-03 02:36:54 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(426): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 426, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 02:43:38 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 02:43:55 --> Unknown column 'created_at' in 'field list'
+#0 /home/connexis/omega.connexist.id/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO ome...')
+#1 /home/connexis/omega.connexist.id/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ome...')
+#2 /home/connexis/omega.connexist.id/app/Controllers/Admin/Attachment/AttachmentController.php(19): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ome...')
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Attachment\AttachmentController->storeAttachment()
+#4 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Attachment\AttachmentController))
+#5 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-03 02:44:22 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 02:46:15 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 02:46:39 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 02:50:12 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 02:53:38 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 02:54:57 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 03:01:51 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 03:02:25 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 03:15:19 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 03:16:06 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 03:16:23 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 03:16:42 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 03:17:29 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 03:17:59 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 03:18:43 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 20:12:41 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 20:13:59 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 20:16:24 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 20:17:42 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 20:31:50 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 21:31:07 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 21:38:07 --> Undefined variable: msg_error
+#0 /home/connexis/omega.connexist.id/app/Views/dashboard/index.php(670): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 670, Array)
+#1 /home/connexis/omega.connexist.id/system/View/View.php(246): include('/home/connexis/...')
+#2 /home/connexis/omega.connexist.id/system/Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(99): view('dashboard/index', Array)
+#4 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->index()
+#5 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#6 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-03 21:39:10 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 21:39:15 --> Undefined variable: statusesFollowUp
+#0 /home/connexis/omega.connexist.id/app/Views/dashboard/index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 50, Array)
+#1 /home/connexis/omega.connexist.id/system/View/View.php(246): include('/home/connexis/...')
+#2 /home/connexis/omega.connexist.id/system/Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 /home/connexis/omega.connexist.id/app/Controllers/Admin/Student/StudentController.php(117): view('dashboard/index', Array)
+#4 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Student\StudentController->search()
+#5 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Student\StudentController))
+#6 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-03 21:39:51 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 21:44:08 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 21:45:08 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 21:45:13 --> {0, string} route cannot be found while reverse-routing.
+#0 /home/connexis/omega.connexist.id/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /home/connexis/omega.connexist.id/system/Common.php(813): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /home/connexis/omega.connexist.id/app/Controllers/Admin/Student/StudentController.php(116): redirect('http://omega.co...')
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Student\StudentController->search()
+#4 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Student\StudentController))
+#5 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-03 21:46:05 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 21:46:18 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 21:51:41 --> Class 'Services' not found
+#0 /home/connexis/omega.connexist.id/system/View/View.php(246): include()
+#1 /home/connexis/omega.connexist.id/system/Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#2 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(99): view('dashboard/index', Array)
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->index()
+#4 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#5 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-03 21:52:31 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 21:52:37 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 21:53:24 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 21:53:29 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 21:53:47 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 21:54:03 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 22:12:58 --> Undefined variable: resultAchievement
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 431, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+=======
+CRITICAL - 2021-02-03 02:17:25 --> Unknown column 'a.url' in 'field list'
+#0 C:\xampp_new\htdocs\cms-siswa\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT a.url, a...')
+#1 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.url, a...')
+#2 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.url, a...')
+#3 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(65): CodeIgniter\Database\BaseConnection->query('SELECT a.url, a...')
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->index()
+#5 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#6 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-03 02:17:51 --> Unknown column 'b.url' in 'field list'
+#0 C:\xampp_new\htdocs\cms-siswa\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT b.url, b...')
+#1 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT b.url, b...')
+#2 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT b.url, b...')
+#3 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(65): CodeIgniter\Database\BaseConnection->query('SELECT b.url, b...')
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->index()
+#5 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#6 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-03 02:18:02 --> Unknown column 'b.url' in 'field list'
+#0 C:\xampp_new\htdocs\cms-siswa\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT b.url, b...')
+#1 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT b.url, b...')
+#2 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT b.url, b...')
+#3 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(65): CodeIgniter\Database\BaseConnection->query('SELECT b.url, b...')
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->index()
+#5 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#6 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-03 02:18:44 --> Unknown column 'a.url' in 'field list'
+#0 C:\xampp_new\htdocs\cms-siswa\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT a.url, a...')
+#1 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.url, a...')
+#2 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.url, a...')
+#3 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(65): CodeIgniter\Database\BaseConnection->query('SELECT a.url, a...')
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->index()
+#5 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#6 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-03 02:19:39 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(429): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 429, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 02:27:48 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(429): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 429, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 02:28:12 --> Unknown column 'created' in 'field list'
+#0 C:\xampp_new\htdocs\cms-siswa\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO ome...')
+#1 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ome...')
+#2 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Attachment\AttachmentController.php(19): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ome...')
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Attachment\AttachmentController->storeAttachment()
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Attachment\AttachmentController))
+#5 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-03 02:28:30 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(429): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 429, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 02:28:46 --> Unknown column 'created' in 'field list'
+#0 C:\xampp_new\htdocs\cms-siswa\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO ome...')
+#1 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ome...')
+#2 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Attachment\AttachmentController.php(19): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ome...')
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Attachment\AttachmentController->storeAttachment()
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Attachment\AttachmentController))
+#5 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-03 02:29:53 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(429): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 429, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 02:30:09 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(429): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 429, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 02:30:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+#0 C:\xampp_new\htdocs\cms-siswa\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO ome...')
+#1 C:\xampp_new\htdocs\cms-siswa\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ome...')
+#2 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Attachment\AttachmentController.php(19): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ome...')
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Attachment\AttachmentController->storeAttachment()
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Attachment\AttachmentController))
+#5 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-03 02:31:07 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(429): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 429, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 02:31:24 --> syntax error, unexpected end of file
+#0 C:\xampp_new\htdocs\cms-siswa\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#1 C:\xampp_new\htdocs\cms-siswa\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-03 02:32:04 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(429): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 429, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 02:32:34 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(429): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 429, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 02:34:36 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(429): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 429, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 02:35:52 --> Undefined variable: resultAchievement
+#0 C:\xampp_new\htdocs\cms-siswa\app\Controllers\Admin\Dashboard\DashboardController.php(429): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 429, Array)
+#1 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getAchievement()
+#2 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 C:\xampp_new\htdocs\cms-siswa\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_new\htdocs\cms-siswa\index.php(20): CodeIgniter\CodeIgniter->run()
+>>>>>>> 3a6d13b55c4ad1fb61d5636dccca50111e3de29e
+#5 {main}

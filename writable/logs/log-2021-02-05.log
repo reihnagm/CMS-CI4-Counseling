@@ -1,0 +1,50 @@
+CRITICAL - 2021-02-05 03:40:57 --> Undefined offset: 100
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(185): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/connexis/...', 185, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getDtSiswa('all', 'all', '2021-01-01', '2021-02-04', '2003', 'all')
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-05 03:49:44 --> Undefined offset: 100
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(185): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/connexis/...', 185, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getDtSiswa('all', 'all', '2021-01-01', '2021-02-04', '2003', 'all')
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-05 05:21:33 --> syntax error, unexpected '}'
+#0 /home/connexis/omega.connexist.id/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/connexis/...')
+#1 /home/connexis/omega.connexist.id/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/connexis/omega.connexist.id/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /home/connexis/omega.connexist.id/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-05 07:45:52 --> Trying to get property 'role' of non-object
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/FollowUp/FollowUpController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/connexis/...', 15, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\FollowUp\FollowUpController->getStudentByFollowUpStatus('Unhandled')
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\FollowUp\FollowUpController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-05 09:37:54 --> Trying to get property 'role' of non-object
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/FollowUp/FollowUpController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/connexis/...', 15, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\FollowUp\FollowUpController->getStudentByFollowUpStatus('Unhandled')
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\FollowUp\FollowUpController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-05 09:41:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/   AND b.username = 'undefined'
+    //   AND a.first_name LIKE '%%' 
+    //  ' at line 5
+#0 /home/connexis/omega.connexist.id/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT a.id, a....')
+#1 /home/connexis/omega.connexist.id/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.id, a....')
+#2 /home/connexis/omega.connexist.id/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.id, a....')
+#3 /home/connexis/omega.connexist.id/app/Controllers/Admin/FollowUp/FollowUpController.php(99): CodeIgniter\Database\BaseConnection->query('SELECT a.id, a....')
+#4 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\FollowUp\FollowUpController->getStudentByFollowUpStatusDatatables('Unhandled', 'undefined')
+#5 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\FollowUp\FollowUpController))
+#6 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#8 {main}

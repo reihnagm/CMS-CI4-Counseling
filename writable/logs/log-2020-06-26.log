@@ -1,0 +1,218 @@
+CRITICAL - 2020-06-26 01:26:36 --> Trying to get property 'data' of non-object
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\user\index.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp_new\\ht...', 101, Array)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(16): view('user/index', Array)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->index()
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+<<<<<<< HEAD
+CRITICAL - 2020-06-26 04:30:59 --> Call to undefined method stdClass::getStatusCode()
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\Product\Product->index()
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product\Product))
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-26 04:32:43 --> Trying to get property 'data' of non-object
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\user\index.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp_new\\ht...', 101, Array)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(15): view('user/index', Array)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->index()
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-26 04:49:28 --> syntax error, unexpected '$result' (T_VARIABLE), expecting ';' or '{'
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-26 04:50:33 --> syntax error, unexpected '$result' (T_VARIABLE), expecting ';' or '{'
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-26 04:50:34 --> syntax error, unexpected '$result' (T_VARIABLE), expecting ';' or '{'
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp_new\\ht...')
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-26 04:51:22 --> Invalid file: user/rbac_administrator.php
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/rbac_admin...')
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/rbac_admin...', Array, true)
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(53): view('user/rbac_admin...')
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->rbacAdministrator()
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-26 05:03:51 --> Undefined variable: user
+#0 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Views\user\banned_user.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_new\\ht...', 30, Array)
+#1 C:\xampp_new\htdocs\cms_ci4_gitlab\system\View\View.php(246): include('C:\\xampp_new\\ht...')
+#2 C:\xampp_new\htdocs\cms_ci4_gitlab\system\Common.php(1087): CodeIgniter\View\View->render('user/banned_use...', Array, true)
+#3 C:\xampp_new\htdocs\cms_ci4_gitlab\app\Controllers\Admin\User\User.php(52): view('user/banned_use...', Array)
+#4 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->bannedUser()
+#5 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp_new\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_new\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+=======
+CRITICAL - 2020-06-26 05:01:33 --> Trying to get property 'products' of non-object
+#0 C:\xampp\htdocs\kp\cms-kepasar\app\Helpers\product_helper.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\kp\cms-kepasar\app\Controllers\Admin\Dashboard\Dashboard.php(12): totalProduct()
+#2 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kp\cms-kepasar\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-26 05:08:21 --> Undefined variable: common_users
+#0 C:\xampp\htdocs\kp\cms-kepasar\app\Views\user\common_user.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\kp\cms-kepasar\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp\cms-kepasar\system\Common.php(1087): CodeIgniter\View\View->render('user/common_use...', Array, true)
+#3 C:\xampp\htdocs\kp\cms-kepasar\app\Controllers\Admin\User\User.php(42): view('user/common_use...')
+#4 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->commonUser()
+#5 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kp\cms-kepasar\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-26 05:11:21 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\kp\cms-kepasar\app\Views\user\common_user.php(34): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\kp\cms-kepasar\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp\cms-kepasar\system\Common.php(1087): CodeIgniter\View\View->render('user/common_use...', Array, true)
+#3 C:\xampp\htdocs\kp\cms-kepasar\app\Controllers\Admin\User\User.php(46): view('user/common_use...', Array)
+#4 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->commonUser()
+#5 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kp\cms-kepasar\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-26 05:12:10 --> Undefined property: stdClass::$guid
+#0 C:\xampp\htdocs\kp\cms-kepasar\app\Views\user\common_user.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\kp\cms-kepasar\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp\cms-kepasar\system\Common.php(1087): CodeIgniter\View\View->render('user/common_use...', Array, true)
+#3 C:\xampp\htdocs\kp\cms-kepasar\app\Controllers\Admin\User\User.php(46): view('user/common_use...', Array)
+#4 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->commonUser()
+#5 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kp\cms-kepasar\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-26 05:12:57 --> Trying to get property 'users' of non-object
+#0 C:\xampp\htdocs\kp\cms-kepasar\app\Views\user\common_user.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\kp\cms-kepasar\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp\cms-kepasar\system\Common.php(1087): CodeIgniter\View\View->render('user/common_use...', Array, true)
+#3 C:\xampp\htdocs\kp\cms-kepasar\app\Controllers\Admin\User\User.php(46): view('user/common_use...', Array)
+#4 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->commonUser()
+#5 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kp\cms-kepasar\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-26 05:15:27 --> Undefined variable: ser
+#0 C:\xampp\htdocs\kp\cms-kepasar\app\Views\user\common_user.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\kp\cms-kepasar\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp\cms-kepasar\system\Common.php(1087): CodeIgniter\View\View->render('user/common_use...', Array, true)
+#3 C:\xampp\htdocs\kp\cms-kepasar\app\Controllers\Admin\User\User.php(46): view('user/common_use...', Array)
+#4 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->commonUser()
+#5 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kp\cms-kepasar\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-26 05:16:08 --> Trying to get property 'users' of non-object
+#0 C:\xampp\htdocs\kp\cms-kepasar\app\Views\user\common_user.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\kp\cms-kepasar\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp\cms-kepasar\system\Common.php(1087): CodeIgniter\View\View->render('user/common_use...', Array, true)
+#3 C:\xampp\htdocs\kp\cms-kepasar\app\Controllers\Admin\User\User.php(46): view('user/common_use...', Array)
+#4 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->commonUser()
+#5 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kp\cms-kepasar\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-26 05:41:44 --> Invalid file: user/common-user.php
+#0 C:\xampp\htdocs\kp\cms-kepasar\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/common-use...')
+#1 C:\xampp\htdocs\kp\cms-kepasar\system\Common.php(1087): CodeIgniter\View\View->render('user/common-use...', Array, true)
+#2 C:\xampp\htdocs\kp\cms-kepasar\app\Controllers\Admin\User\User.php(47): view('user/common-use...', Array)
+#3 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->commonUser()
+#4 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#5 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kp\cms-kepasar\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-26 05:44:33 --> Undefined variable: common_users
+#0 C:\xampp\htdocs\kp\cms-kepasar\app\Views\user\banned_user.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\kp\cms-kepasar\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp\cms-kepasar\system\Common.php(1087): CodeIgniter\View\View->render('user/banned_use...', Array, true)
+#3 C:\xampp\htdocs\kp\cms-kepasar\app\Controllers\Admin\User\User.php(58): view('user/banned_use...', Array)
+#4 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->bannedUser()
+#5 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kp\cms-kepasar\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-26 05:46:43 --> Trying to get property 'users' of non-object
+#0 C:\xampp\htdocs\kp\cms-kepasar\app\Views\user\banned_user.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\kp\cms-kepasar\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp\cms-kepasar\system\Common.php(1087): CodeIgniter\View\View->render('user/banned_use...', Array, true)
+#3 C:\xampp\htdocs\kp\cms-kepasar\app\Controllers\Admin\User\User.php(58): view('user/banned_use...', Array)
+#4 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->bannedUser()
+#5 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kp\cms-kepasar\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-26 05:51:53 --> Undefined variable: banned_users
+#0 C:\xampp\htdocs\kp\cms-kepasar\app\Views\user\banned_user.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\kp\cms-kepasar\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp\cms-kepasar\system\Common.php(1087): CodeIgniter\View\View->render('user/banned_use...', Array, true)
+#3 C:\xampp\htdocs\kp\cms-kepasar\app\Controllers\Admin\User\User.php(58): view('user/banned_use...', Array)
+#4 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->bannedUser()
+#5 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kp\cms-kepasar\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-26 05:52:36 --> Trying to get property 'users' of non-object
+#0 C:\xampp\htdocs\kp\cms-kepasar\app\Views\user\common_user.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\kp\cms-kepasar\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp\cms-kepasar\system\Common.php(1087): CodeIgniter\View\View->render('user/common_use...', Array, true)
+#3 C:\xampp\htdocs\kp\cms-kepasar\app\Controllers\Admin\User\User.php(47): view('user/common_use...', Array)
+#4 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(914): App\Controllers\Admin\User\User->commonUser()
+#5 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User\User))
+#6 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kp\cms-kepasar\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-26 20:37:46 --> Trying to get property 'status' of non-object
+#0 C:\xampp\htdocs\kp\cms-kepasar\app\Controllers\Admin\Auth\Login.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(914): App\Controllers\Admin\Auth\Login->store()
+#2 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Auth\Login))
+#3 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kp\cms-kepasar\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-26 20:38:42 --> Trying to get property 'products' of non-object
+#0 C:\xampp\htdocs\kp\cms-kepasar\app\Helpers\product_helper.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\kp\cms-kepasar\app\Controllers\Admin\Dashboard\Dashboard.php(12): totalProduct()
+#2 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kp\cms-kepasar\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-26 20:39:27 --> Trying to get property 'products' of non-object
+#0 C:\xampp\htdocs\kp\cms-kepasar\app\Helpers\product_helper.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\kp\cms-kepasar\app\Controllers\Admin\Dashboard\Dashboard.php(12): totalProduct()
+#2 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(914): App\Controllers\Admin\Dashboard\Dashboard->index()
+#3 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\Dashboard))
+#4 C:\xampp\htdocs\kp\cms-kepasar\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kp\cms-kepasar\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+>>>>>>> 91974cdcdf780d1bb82b9411d4478874cc700f3f

@@ -1,0 +1,105 @@
+CRITICAL - 2021-02-10 04:37:03 --> Undefined variable: result
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Report/ReportController.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 78, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->getDtReport('2021-02-09', '2021-02-11', 'null')
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-10 04:37:20 --> Call to undefined function App\Controllers\Admin\Report\strtolowercase()
+#0 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->getDtReport('2021-02-09', '2021-02-11', 'null')
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-10 04:44:10 --> Call to undefined function App\Controllers\Admin\Report\strtolowercase()
+#0 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->getDtReport('2021-02-09', '2021-02-11', 'null')
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-10 04:44:34 --> Call to undefined function App\Controllers\Admin\Report\strtolowercase()
+#0 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->getDtReport('2021-02-09', '2021-02-11', 'null')
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-10 04:49:57 --> Call to undefined function App\Controllers\Admin\Report\strtolowercase()
+#0 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->getDtReport('2021-02-09', '2021-02-11', 'null')
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-10 04:50:11 --> Call to undefined function App\Controllers\Admin\Report\strtolowercase()
+#0 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->getDtReport('2021-02-09', '2021-02-11', 'null')
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-10 04:50:51 --> Call to undefined function App\Controllers\Admin\Report\strtolowercase()
+#0 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->getDtReport('2021-02-09', '2021-02-11', 'null')
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-10 04:51:09 --> Call to undefined function App\Controllers\Admin\Report\strtolowercase()
+#0 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->getDtReport('2021-02-09', '2021-02-11', 'null')
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-10 04:51:24 --> Call to undefined function App\Controllers\Admin\Report\strtolowercase()
+#0 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->getDtReport('2021-02-09', '2021-02-11', 'null')
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-10 04:52:25 --> Undefined variable: result
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Report/ReportController.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 79, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->getDtReport('2021-02-09', '2021-02-11', 'null')
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-10 05:10:34 --> Undefined variable: link
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Report/ReportController.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/connexis/...', 79, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->getDtReport('2021-02-09', '2021-02-11', 'null')
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-10 18:15:27 --> Trying to get property 'role' of non-object
+#0 /home/connexis/omega.connexist.id/app/Views/template-master-admin/head.php(253): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/connexis/...', 253, Array)
+#1 /home/connexis/omega.connexist.id/system/View/View.php(246): include('/home/connexis/...')
+#2 /home/connexis/omega.connexist.id/system/Common.php(1087): CodeIgniter\View\View->render('template-master...', Array, true)
+#3 /home/connexis/omega.connexist.id/app/Views/followup/detail.php(1): view('template-master...')
+#4 /home/connexis/omega.connexist.id/system/View/View.php(246): include('/home/connexis/...')
+#5 /home/connexis/omega.connexist.id/system/Common.php(1087): CodeIgniter\View\View->render('followup/detail', Array, true)
+#6 /home/connexis/omega.connexist.id/app/Controllers/Admin/FollowUp/FollowUpController.php(144): view('followup/detail', Array)
+#7 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\FollowUp\FollowUpController->detail('252')
+#8 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\FollowUp\FollowUpController))
+#9 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-02-10 19:21:15 --> Trying to access array offset on value of type null
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/connexis/...', 167, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getDtSiswa('all', 'all', '2021-02-04', '2021-02-11', '2003', 'all')
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-10 19:21:44 --> Trying to access array offset on value of type null
+#0 /home/connexis/omega.connexist.id/app/Controllers/Admin/Dashboard/DashboardController.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/connexis/...', 167, Array)
+#1 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Dashboard\DashboardController->getDtSiswa('all', 'all', '2021-02-04', '2021-02-11', '2003', 'all')
+#2 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard\DashboardController))
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-10 20:41:23 --> Too many connections
+#0 /home/connexis/omega.connexist.id/system/Database/BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/connexis/omega.connexist.id/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/connexis/omega.connexist.id/app/Controllers/Admin/Report/ReportController.php(32): CodeIgniter\Database\BaseConnection->query('SELECT * FROM o...')
+#3 /home/connexis/omega.connexist.id/system/CodeIgniter.php(914): App\Controllers\Admin\Report\ReportController->getDtReport('2021-02-10', '2021-02-12', 'null')
+#4 /home/connexis/omega.connexist.id/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Report\ReportController))
+#5 /home/connexis/omega.connexist.id/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/connexis/omega.connexist.id/index.php(20): CodeIgniter\CodeIgniter->run()
+#7 {main}

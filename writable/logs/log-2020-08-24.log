@@ -1,0 +1,10 @@
+CRITICAL - 2020-08-24 23:41:20 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\cms_ci4_gitlab\system\Debug\Toolbar\Views\toolbar.tpl.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\cms_ci4_gitlab\system\Debug\Toolbar.php(498): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cms_ci4_gitlab\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\cms_ci4_gitlab\app\Config\Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\cms_ci4_gitlab\system\Events\Events.php(188): call_user_func(Object(Closure))
+#6 C:\xampp\htdocs\cms_ci4_gitlab\system\CodeIgniter.php(289): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\cms_ci4_gitlab\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
